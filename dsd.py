@@ -13,7 +13,57 @@ def csv_to_list(file):
         csv_reader = csv.reader(csv_file, delimiter=',')
         for row in csv_reader:
             lista.append(row)
-    return (lista[1:])
+            
+        n_campos = len(lista[0])
+        
+        for campo in range (n_campos):
+            tipo = 'string:'
+            integral = 0
+            amostra = len(lista)//10
+            for n in range (amostra):
+            
+                objeto = lista[n][campo]
+                
+                if objeto[0] == '[':
+                    tipo = "lista:"
+                    if objeto[1] == '[':
+                        tipo = 'lista2:'
+                    
+                try:
+                        int(objeto)
+                except ValueError:
+                        integral = integral + 1
+                    
+            if integral == 1:
+                tipo = 'int:'
+                
+            lista[0][campo] = tipo + str(lista[0][campo])
+            print (f'Campo {campo+1} = {tipo}')
+             
+        for campo in range (n_campos):
+            for n in range (len(lista)):
+                objeto =  lista[n][campo]
+                if 'int:' in lista[0][campo] and n>0:
+                    objeto = int(objeto)
+                if 'lista:' in lista[0][campo] and n>0:
+                    objeto = objeto[1:-1]
+                    objeto = objeto.split[',']
+                if 'lista2:' in lista[0][campo] and n>0:
+                    objeto = objeto[1:-1]
+                    objeto = objeto[1:-1]
+                    
+                    objeto = objeto.split('], [')
+                    lista_itens = []
+                    
+                    for n in range (len(objeto)):
+                        item = objeto[n]
+                        item = item[1:-1]
+                        item = item.split("', '")
+                        lista_itens.append(item)
+                        
+                    lista[n][campo] = lista_itens
+            
+    return (lista)
 
 def remover_acentos(txt):
     return normalize('NFKD', txt).encode('ASCII', 'ignore').decode('utf-8')
@@ -134,7 +184,23 @@ def ajustar_nome(string):
             ['CAMARA MUNICIPAL','C.MUN.'],
             ['C.MUN. DO MUNICIPIO','C.MUN.'],
             ['CAMPINHAS','CAMPINAS'],
-            ['DE TOCANTINS','DO TOCANTINS']
+            ['DE TOCANTINS','DO TOCANTINS'],
+            ['LEGISLTATIVA','LEGISLATIVA'],
+            ['PRO TESTE','PROTESTE'],
+            ['E TV ABERT','E TELEVISAO ABERT'],
+            ['EMPRESARIOS DE RADIO','EMPRESAS DE RADIO'],
+            ['ADEPOL/BRASIL','ADEPOL'],
+            ['MAGISTRADOS DO BRASIL AMB','MAGISTRADOS BRASILEIROS AMB'],
+            ['ANOREG/BR','ANOREG'],
+            ['ANADEP A','ANADEP'],
+            ['DAS DEFENSORAS E DEFENSORES','DAS DEFENSORAS E DOS DEFENSORES'],
+            ['URBANOS NTU','URBANOS'],
+            ['D.G. DA ',''],
+            ['D.G. DO ',''],
+            ['DIRETOR DA ',''],
+            ['DIRETOR DO ',''],
+            
+            [',','']
             
             
             
@@ -227,14 +293,19 @@ def ajustar_nome(string):
               ['PARTIDO TRABALHISTA RENOVADOR','PTR'],
               ['PARTIDO VERDE','PV'],
               ['PODEMOS','PODEMOS'],
-              ['CONSELHO NACIONAL DE JUSTIÇA','CNJ'],
+              ['CONS.NAC. DE JUSTICA','CNJ'],
               ['CONGRESSO NACIONAL','CN'],
               ['TRIBUNAL SUPERIOR ELEITORAL','TSE'],
               ['SOLIDARIEDADE -','SOLIDARIEDADE'],
               ['PARTIDO NOVO','PARTIDO NOVO'],
               ['SUPREMO TRIBUNAL FEDERAL','STF'],
               ['^',''],
-              ['TRIBUNAL SUPERIOR DO TRABALHO','TST']
+              ['TRIBUNAL SUPERIOR DO TRABALHO','TST'],
+              ['DIRETOR DA RECEITA FEDERAL','SECRETARIA DA RECEITA FEDERAL'],
+              ['DEPARTAMENTO DA RECEITA FEDERAL','SECRETARIA DA RECEITA FEDERAL'],
+              ['SINDIFISCO NACIONAL','SIND.NAC. AUDITORES FISCAIS DA RECEITA FEDERAL DO BRASIL SINDIFISCO NACIONAL'],
+              ['UNIAO GERAL DOS TRABALHADORES','UNIAO GERAL DOS TRABALHADORES UGT'],
+              ['UNIAO NACIONAL DAS INSTITUICOES DE AUTOGESTAO EM SAUDE','UNIAO NACIONAL DAS INSTITUICOES DE AUTOGESTAO EM SAUDE UNIDAS']
                          
               ]
     
@@ -390,6 +461,7 @@ def ajustar_nome(string):
              ['SECRETARIA DA FAZENDA','SEC.FAZ.'],
              ['PRESIDENTE DO','PRES.'],
              ['PRESIDENTE DA','PRES.'],
+             ['PRESIDENTE ','PRES.'],
              ['TRIBUNAL DE CONTAS DO','TC/'],
              ['TRIBUNAL DE CONTAS DE','TC/'],
              ['TRIBUNAL DE CONTAS DA','TC/'],
@@ -438,7 +510,22 @@ def ajustar_nome(string):
              ['PROCURADOR GERAL','PROC.GERAL'],
              ['PROCURADORIA GERAL','PROC.GERAL'],
              ['SUPERIOR TJ','STJ'],
-             
+             [' AMPCON',''],
+             ['C.MUN. DO MUN.','C.MUN.'],
+             ['DO UNIAO','DA UNIAO'],
+             ['FECOMERCIO PR',''],
+             [' 0AB',''],
+             ['PRES. BRASIL','PRES. REPUBLICA'],
+             ['GOVERNO DE',''],
+             ['GOVERNO DO',''],
+             ['PRES. REPUBLICA','PRESIDENTE DA REPUBLICA'],
+             ['PRESIDENCIA DA REPUBLICA','PRESIDENTE DA REPUBLICA'],
+             ['EM EXERCICIO',''],
+             ['PRES. ',''],
+             ['PATRIOTA PATRI','PARTIDO PATRIOTA'],
+             ['-',''],
+             ['  ',' '],
+             ['  ',' ']
              ]
     
     for item in trocar:
@@ -561,9 +648,14 @@ def solicitar_dados_CC (classe, numero):
            + numero)
     print (url)
     # Módulo básico de extração
-    string = requests.get(url).text
+    user_agent = {'User-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36'}
+    string = requests.get(url, headers = user_agent).text
     inicio = string.find('processo/verProcessoAndamento.asp?')
     return (url + ">>>>> \n" + string[inicio:])
+
+
+url = 'http://www.stf.jus.br/portal/pauta/listarCalendario.asp?data=03/03/2021'
+html = requests.head
 
 def solicitar_dados_mono (classe, numero):
     url = ('http://stf.jus.br/portal/jurisprudencia/listarJurisprudencia.asp?s1=%28'
@@ -592,11 +684,18 @@ def solicitar_dados_AP (classe, numero):
     return (url + ">>>>> \n" + htmlfonte)
 
 def solicitar_dados (dominio, path, incidente):
-    html = requests.get(dominio+path+incidente)
+    user_agent = {'User-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36'}
+    html = requests.get(dominio+path+incidente, headers = user_agent)
     html.encoding = 'utf-8'
     html = html.text
     return html
 
+def get (url):
+    user_agent = {'User-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36'}
+    html = requests.get(url, headers = user_agent)
+    # html.encoding = 'utf-8'
+    html = html.text
+    return html
 
 def carregar_arquivo_composto (classe, numero, path):
     nomedoarquivo = (path + classe + str(0)*(4-len(numero)) + numero + '.html')
@@ -814,6 +913,7 @@ def limpar_arquivo(nomedoarquivo):
     arquivoaberto.close()
 
 def write_csv_header (nomedoarquivo, string_campos):
+    string_campos = string_campos.replace('\n','')
     lista_de_campos = string_campos.split(',')
     if nomedoarquivo in os.listdir():
         arquivoaberto = open(nomedoarquivo, mode='r+',
@@ -847,7 +947,7 @@ def write_csv_line (nomedoarquivo,dados):
     if dados != []:
         arquivoaberto = open(nomedoarquivo, mode='a+',
                              encoding="utf-8", newline='')
-        arquivoaberto_csv = csv.writer(arquivoaberto, delimiter=',')
+        arquivoaberto_csv = csv.writer(arquivoaberto, delimiter=',', quotechar = '"')
         arquivoaberto_csv.writerow(dados)
         arquivoaberto.close()
 
@@ -855,9 +955,8 @@ def write_csv_lines (nomedoarquivo, dados):
     if dados != []:
         arquivoaberto = open(nomedoarquivo, mode='a+',
                              encoding="utf-8", newline='')
-        arquivoaberto_csv = csv.writer(arquivoaberto, delimiter=',')
-        for item in dados:
-            arquivoaberto_csv.writerow(item)
+        arquivoaberto_csv = csv.writer(arquivoaberto, delimiter=',', quotechar = '"')
+        arquivoaberto_csv.writerows(dados)
         arquivoaberto.close()
 
 def extrai_acordaos_da_string (arquivo_a_extrair, path):  # usar duas contra-barras depois do nome
@@ -1195,3 +1294,20 @@ def extrai_mono_da_string (arquivo_a_extrair, path):  # usar duas contra-barras 
                     monocraticas_outros)
         else:
             return ([], 'NA', [], [], [], [], [], [], [],[], [])
+        
+def substituir_data (string):
+    string = string.lower()
+    string = string.replace('jan','01')
+    string = string.replace('fev','02')
+    string = string.replace('mar','03')
+    string = string.replace('abr','04')
+    string = string.replace('mai','05')
+    string = string.replace('jun','06')
+    string = string.replace('jul','07')
+    string = string.replace('ago','08')
+    string = string.replace('set','09')
+    string = string.replace('out','10')
+    string = string.replace('nov','11')
+    string = string.replace('dez','11')
+    
+    return(string)

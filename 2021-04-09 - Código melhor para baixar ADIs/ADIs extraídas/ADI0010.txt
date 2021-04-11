@@ -1,0 +1,77 @@
+processo/verProcessoAndamento.asp?incidente=1482422">
+		<img src="../processo/imagem/botaoAcompanhamento.gif" width="169" height="22" border="0"></a>
+	</div>
+</div>
+	<div id="divImpressao"><div><h3><strong>AÇÃO DIRETA DE INCONSTITUCIONALIDADE (Med. Liminar) - 10</strong></h3><table width="99%" cellspacing="5"><tr><td>Origem:</td><td><strong>DISTRITO FEDERAL</strong></td><td>Entrada no STF:</td><td><strong>07-Dez-1988</strong></td></tr><tr><td>Relator:</td><td><strong>MINISTRO SEPULVEDA PERTENCE</strong></td><td>Distribuído:</td><td><strong>07-Dez-1988</strong></td></tr><tr><td>Partes:</td><td colspan="3">Requerente: <strong>CONFEDERACAO NACIONAL DAS PROFISSOES LIBERAIS - CNFL
+( CF 103 , 0IX )</strong><br />Requerido :<strong>PRESIDENTE DA REPUBLICA</strong></td></tr></table></div><br /><strong><b style="rgb(57,82,95)">Dispositivo Legal Questionado</b></strong><br /><pre>
+     Artigo 002 º do DECRETO-LEI Federal nº  2397 de  21  de  dezembro
+1987 .
+
+     Alterou o regime Juridico - Tributario das  sociedades  civis  de
+Prestacao de servicos - incidencia do Imposto de Renda na Fonte .</pre><br /><br /><strong><b style="rgb(57,82,95)">Fundamentação Constitucional</b></strong><br /><pre>
+- Artigo 153 , inciso III ,  da Constituicao Federal</pre><br /><br /><strong><b style="rgb(57,82,95)">Resultado da Liminar</b></strong><br /><br />Prejudicada
+<br /><br /><strong><b style="rgb(57,82,95)">Resultado Final</b></strong><br /><br />Decisão Monocrática - Negado Seguimento
+<br /><br /><strong><b style="rgb(57,82,95)">Decisão Monocrática Final</b></strong><br /><pre>
+     NEGADO SEGUIMENTO :
+     " ... Na Sessao Plenaria do dia  6  de  fevereiro de  1992  ,  ao
+julgar a ADIn 002 , Relator o Em. Ministro Paulo Brossard ,  firmou  o
+STF o entendimento de que  a  nao  recepcao  da  norma  anterior   por
+incompatibilidade material com a  norma  constitucional  superveniente
+resolve-se em simples revogacao , a cuja declaracao nao  se  presta  a
+acao direta de inconstitucionalidade .
+
+     Naquela assentada ,  proferi longo voto em sentido contrario .
+
+     Data  Venia  e   malgrado   o  brilho  dos  pronunciamentos   que
+formaram a maioria , mantenho-me fiel a conviccao manifestada .
+
+     Nao  obstante , a profundidade da discussao do tema ,  o   numero
+e a qualificacao dos votos  que  alicercaram  a  decisao  da  Corte  ,
+prenunciam jurisprudencia sedimentada e duradoura .
+
+     Assim , com ressalva de minha opiniao  pessoal  ,  na  linha   da
+orientacao do plenario , NEGO SEGUIMENTO ao presente pedido  ( RISTF ,
+art. 021 , § 001 º ).
+
+     Brasilia , 09 de setembro de 1994 . "
+     Publicado DJ 15.09.1994 .</pre><br /><br /><b>Fim do Documento</b>
+				</div>
+			</div> 
+			
+			<div style="font-size: 6px;">&nbsp;</div>
+			
+      	<div id="rodape" style="padding-top: 5px; border-top: solid 1px silver;">
+      
+				Pra&ccedil;a dos Tr&ecirc;s Poderes - Bras&iacute;lia - DF - CEP 70175-900 Telefone: 55.61.3217.3000 | 
+					<a href="http://portal.stf.jus.br/centraldocidadao/">Telefones &Uacute;teis</a> | 
+					<a href="/portal/push/">STF Push</a> | 
+					<a href="../RSS/" class="rss">Canais RSS</a>
+			</div>
+	
+		</div>
+
+
+
+	</div> 
+	
+	<iframe title="Quadro de auto ajuda" id="sysQuadroAutoAjuda" style="display: none; position: absolute; border: 0px; z-index: 98;"></iframe>
+    <noframes> Seu navegador n&atilde;o suporta frames. </noframes>
+	
+	<script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    
+    <script type="text/javascript">
+      try {
+        var pageTracker = _gat._getTracker("UA-9066701-4");
+        pageTracker._trackPageview();
+      } catch(err) {}
+    </script>   
+   
+
+
+
+</body>
+
+</html>

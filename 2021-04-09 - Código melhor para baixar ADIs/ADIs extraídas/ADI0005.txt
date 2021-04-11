@@ -1,0 +1,67 @@
+processo/verProcessoAndamento.asp?incidente=1480556">
+		<img src="../processo/imagem/botaoAcompanhamento.gif" width="169" height="22" border="0"></a>
+	</div>
+</div>
+	<div id="divImpressao"><div><h3><strong>ACAO DIRETA DE INCONSTITUCIONALIDADE (Med. Liminar) - 5</strong></h3><table width="99%" cellspacing="5"><tr><td>Origem:</td><td><strong>DISTRITO FEDERAL</strong></td><td>Entrada no STF:</td><td><strong>18-Out-1988</strong></td></tr><tr><td>Relator:</td><td><strong>MINISTRO NÉRI DA SILVEIRA</strong></td><td>Distribuído:</td><td><strong>18-Out-1988</strong></td></tr><tr><td>Partes:</td><td colspan="3">Requerente: <strong>GOVERNADOR DO ESTADO DE SAO PAULO
+( CF 103 , 00V )</strong><br />Requerido :<strong>PRESIDENTE DA REPUBLICA</strong></td></tr></table></div><br /><strong><b style="rgb(57,82,95)">Dispositivo Legal Questionado</b></strong><br /><pre>
+     Argui  inconstitucionalidade  do  Artigo  002 º  "caput"  e   seu
+paragrafo 003 º do Decreto-Lei Federal nº 1928 , de  18  de  fevereiro
+de 1982 , alterado pelo Artigo 001 º do Decreto-Lei nº 2169  de 29  de
+outubro de 1984 .
+
+                             Dispoe  sobre  pagamento  prioritario  de
+                             debitos decorrentes  de  compromissos  em
+                             moeda   estrangeira ,    assumidos   pela
+                             Administracao Publica .</pre><br /><br /><strong><b style="rgb(57,82,95)">Fundamentação Constitucional</b></strong><br /><pre>
+- Artigo 001 º
+- Artigo 005 º , XXXV
+- Artigo 018
+- Artigo 025
+- Artigo 034 , "caput" , inciso  00V , alinea "a" ,  da  Constituicao
+  Federal</pre><br /><br /><strong><b style="rgb(57,82,95)">Resultado da Liminar</b></strong><br /><br />Prejudicada
+<br /><br /><strong><b style="rgb(57,82,95)">Resultado Final</b></strong><br /><br />Não Conhecido
+<br /><br /><strong><b style="rgb(57,82,95)">Decisão Final</b></strong><br /><br /><pre>
+     Por votacao UNANIME , o  Tribunal  NAO  CONHECEU  da  acao  , por
+impossobilidade juridica do pedido , por  se tratar de  lei anterior a
+Constituicao de l988 . Votou o Presidente
+     - Plenário , 27.03.1992 .<br /></pre><strong><b style="rgb(57,82,95)">Data de Julgamento Final</b></strong><br /><br />Plenário<br /><br /><strong><b style="rgb(57,82,95)">Data de Publicação da Decisão Final</b></strong><br /><br />Acórdão , 24.04.1992 .<br /><br /><b>Fim do Documento</b>
+				</div>
+			</div> 
+			
+			<div style="font-size: 6px;">&nbsp;</div>
+			
+      	<div id="rodape" style="padding-top: 5px; border-top: solid 1px silver;">
+      
+				Pra&ccedil;a dos Tr&ecirc;s Poderes - Bras&iacute;lia - DF - CEP 70175-900 Telefone: 55.61.3217.3000 | 
+					<a href="http://portal.stf.jus.br/centraldocidadao/">Telefones &Uacute;teis</a> | 
+					<a href="/portal/push/">STF Push</a> | 
+					<a href="../RSS/" class="rss">Canais RSS</a>
+			</div>
+	
+		</div>
+
+
+
+	</div> 
+	
+	<iframe title="Quadro de auto ajuda" id="sysQuadroAutoAjuda" style="display: none; position: absolute; border: 0px; z-index: 98;"></iframe>
+    <noframes> Seu navegador n&atilde;o suporta frames. </noframes>
+	
+	<script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    
+    <script type="text/javascript">
+      try {
+        var pageTracker = _gat._getTracker("UA-9066701-4");
+        pageTracker._trackPageview();
+      } catch(err) {}
+    </script>   
+   
+
+
+
+</body>
+
+</html>

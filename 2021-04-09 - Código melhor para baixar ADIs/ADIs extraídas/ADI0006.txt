@@ -1,0 +1,65 @@
+processo/verProcessoAndamento.asp?incidente=1481098">
+		<img src="../processo/imagem/botaoAcompanhamento.gif" width="169" height="22" border="0"></a>
+	</div>
+</div>
+	<div id="divImpressao"><div><h3><strong>ACAO DIRETA DE INCONSTITUCIONALIDADE - 6</strong></h3><table width="99%" cellspacing="5"><tr><td>Origem:</td><td><strong>DISTRITO FEDERAL</strong></td><td>Entrada no STF:</td><td><strong>07-Nov-1988</strong></td></tr><tr><td>Relator:</td><td><strong>MINISTRO OCTAVIO GALLOTTI</strong></td><td>Distribuído:</td><td><strong>08-Nov-1988</strong></td></tr><tr><td>Partes:</td><td colspan="3">Requerente: <strong>CAMARA BRASILEIRA DO LIVRO</strong><br />Requerido :<strong>MINISTRO DA FAZENDA</strong></td></tr></table></div><br /><strong><b style="rgb(57,82,95)">Dispositivo Legal Questionado</b></strong><br /><pre>
+     Item 0VI da Portaria nº 119 de 22 de junho de 1982 do  Ministerio
+de Estado da Fazenda .
+
+     Regulamenta o recolhimento da contribuicao  social  ao  FINSOCIAL
+abrangendo as empresas Editoras ,  Distribuidoras  e  Comerciantes  de
+Livros , que gozam de Imunidade Tributaria .</pre><br /><br /><strong><b style="rgb(57,82,95)">Resultado da Liminar</b></strong><br /><br />Sem Liminar
+<br /><br /><strong><b style="rgb(57,82,95)">Resultado Final</b></strong><br /><br />Decisão Monocrática - Negado Seguimento
+<br /><br /><strong><b style="rgb(57,82,95)">Decisão Monocrática Final</b></strong><br /><pre>     NEGADO SEGUIMENTO :
+
+     Julgamento por Despacho : Em sessao plenaria  de 006 de fevereiro
+de 1992, assentou o Supremo Tribunal que nao cabe acao  direta ,  para
+impugnar atos normativos anteriores a Constituicao de  1992 .  Assim ,
+por impossibilidade juridica do seu objeto , a  Corte  nao  conheceu ,
+entre outras , da ADIN nº 002 .
+
+     Coerente  com  essa  orientacao , nego  seguimento  ao   presente
+pedido .
+
+     Brasília , 12 de fevereiro de 1992 .
+     Publicado DJ 21.02.1992 .</pre><br /><br /><b>Fim do Documento</b>
+				</div>
+			</div> 
+			
+			<div style="font-size: 6px;">&nbsp;</div>
+			
+      	<div id="rodape" style="padding-top: 5px; border-top: solid 1px silver;">
+      
+				Pra&ccedil;a dos Tr&ecirc;s Poderes - Bras&iacute;lia - DF - CEP 70175-900 Telefone: 55.61.3217.3000 | 
+					<a href="http://portal.stf.jus.br/centraldocidadao/">Telefones &Uacute;teis</a> | 
+					<a href="/portal/push/">STF Push</a> | 
+					<a href="../RSS/" class="rss">Canais RSS</a>
+			</div>
+	
+		</div>
+
+
+
+	</div> 
+	
+	<iframe title="Quadro de auto ajuda" id="sysQuadroAutoAjuda" style="display: none; position: absolute; border: 0px; z-index: 98;"></iframe>
+    <noframes> Seu navegador n&atilde;o suporta frames. </noframes>
+	
+	<script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    
+    <script type="text/javascript">
+      try {
+        var pageTracker = _gat._getTracker("UA-9066701-4");
+        pageTracker._trackPageview();
+      } catch(err) {}
+    </script>   
+   
+
+
+
+</body>
+
+</html>

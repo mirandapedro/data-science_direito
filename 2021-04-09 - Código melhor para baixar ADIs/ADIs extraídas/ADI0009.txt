@@ -1,0 +1,57 @@
+processo/verProcessoAndamento.asp?incidente=1482386">
+		<img src="../processo/imagem/botaoAcompanhamento.gif" width="169" height="22" border="0"></a>
+	</div>
+</div>
+	<div id="divImpressao"><div><h3><strong>ACAO DIRETA DE INCONSTITUCIONALIDADE (Med. Liminar) - 9</strong></h3><table width="99%" cellspacing="5"><tr><td>Origem:</td><td><strong>DISTRITO FEDERAL</strong></td><td>Entrada no STF:</td><td><strong>06-Dez-1988</strong></td></tr><tr><td>Relator:</td><td><strong>MINISTRO NÉRI DA SILVEIRA</strong></td><td>Distribuído:</td><td><strong>06-Dez-1988</strong></td></tr><tr><td>Partes:</td><td colspan="3">Requerente: <strong>CONFEDERACAO NACIONAL DA INDUSTRIA - CNI
+( CF 103 , 0IX )</strong><br />Requerido :<strong>PRESIDENTE DA REPUBLICA</strong></td></tr></table></div><br /><strong><b style="rgb(57,82,95)">Dispositivo Legal Questionado</b></strong><br /><pre>
+     Decreto-Lei Federal nº 2445 de 29 de junho de 1988 .
+     Base de calculo do PIS - PASEP .</pre><br /><br /><strong><b style="rgb(57,82,95)">Resultado da Liminar</b></strong><br /><br />Indeferida
+<br /><br /><strong><b style="rgb(57,82,95)">Decisão Plenária da Liminar</b></strong><br /><pre>
+     Por unanimidade , o Tribunal indeferiu a medida liminar . Votou o
+Presidente .
+     - Plenário , 04.05.1989 .</pre><br /><br /><strong><b style="rgb(57,82,95)">Data de Julgamento Plenário da Liminar</b></strong><br />Plenário<br /><br /><strong><b style="rgb(57,82,95)">Data de Publicação da Liminar</b></strong><br /><br />Acórdão , DJ 25.08.1989 .<br /><br /><strong><b style="rgb(57,82,95)">Resultado Final</b></strong><br /><br />Não Conhecido
+<br /><br /><strong><b style="rgb(57,82,95)">Decisão Final</b></strong><br /><br /><pre>
+     Por votacao UNANIME , o  Tribunal  NAO  CONHECEU  DA  ACAO  , por
+impossibilidade juridica do pedido , por se tratar de lei  anterior  a
+Constituicao de 1988 . Votou o Presidente .
+     - Plenário , 27.03.1992 .<br /></pre><strong><b style="rgb(57,82,95)">Data de Julgamento Final</b></strong><br /><br />Plenário<br /><br /><strong><b style="rgb(57,82,95)">Data de Publicação da Decisão Final</b></strong><br /><br />Acórdão , DJ 24.04.1992 .<br /><br /><b>Fim do Documento</b>
+				</div>
+			</div> 
+			
+			<div style="font-size: 6px;">&nbsp;</div>
+			
+      	<div id="rodape" style="padding-top: 5px; border-top: solid 1px silver;">
+      
+				Pra&ccedil;a dos Tr&ecirc;s Poderes - Bras&iacute;lia - DF - CEP 70175-900 Telefone: 55.61.3217.3000 | 
+					<a href="http://portal.stf.jus.br/centraldocidadao/">Telefones &Uacute;teis</a> | 
+					<a href="/portal/push/">STF Push</a> | 
+					<a href="../RSS/" class="rss">Canais RSS</a>
+			</div>
+	
+		</div>
+
+
+
+	</div> 
+	
+	<iframe title="Quadro de auto ajuda" id="sysQuadroAutoAjuda" style="display: none; position: absolute; border: 0px; z-index: 98;"></iframe>
+    <noframes> Seu navegador n&atilde;o suporta frames. </noframes>
+	
+	<script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    
+    <script type="text/javascript">
+      try {
+        var pageTracker = _gat._getTracker("UA-9066701-4");
+        pageTracker._trackPageview();
+      } catch(err) {}
+    </script>   
+   
+
+
+
+</body>
+
+</html>

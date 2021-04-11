@@ -1,0 +1,74 @@
+processo/verProcessoAndamento.asp?incidente=1480210">
+		<img src="../processo/imagem/botaoAcompanhamento.gif" width="169" height="22" border="0"></a>
+	</div>
+</div>
+	<div id="divImpressao"><div><h3><strong>ACAO DIRETA DE INCONSTITUCIONALIDADE (Med. Liminar) - 4</strong></h3><table width="99%" cellspacing="5"><tr><td>Origem:</td><td><strong>DISTRITO FEDERAL</strong></td><td>Entrada no STF:</td><td><strong>12-Out-1988</strong></td></tr><tr><td>Relator:</td><td><strong>MINISTRO SYDNEY SANCHES</strong></td><td>Distribuído:</td><td><strong>12-Out-1988</strong></td></tr><tr><td>Partes:</td><td colspan="3">Requerente: <strong>PARTIDO DEMOCRATICO TRABALHISTA - PDT
+( CF 103 , VIII )</strong><br />Requerido :<strong>PRESIDENTE DA REPUBLICA</strong></td></tr></table></div><br /><strong><b style="rgb(57,82,95)">Dispositivo Legal Questionado</b></strong><br /><pre>
+     PARECER SR - 070 , de 6 de outubro de 1988 do Consultor Geral  da
+Republica - Consultoria Geral da Republica ,  referente  ao  paragrafo
+003 º do artigo 192 da Constituicao Federal .
+
+     Limite maximo de doze por cento para os juros reais cobraveis nos
+contratos  de  emprestimo  de  dinheiro.  -  Sua  eficacia  estaria  a
+depender da edicao de norma  regulamentadora.  -  Sistema   Financeiro
+Nacional - Regulamentacao  por   Lei  Complementar  -  Juros  Reais  -
+Fixacao em 012 % ( doze por cento ) a.a. .</pre><br /><br /><strong><b style="rgb(57,82,95)">Resultado da Liminar</b></strong><br /><br />Indeferida
+<br /><br /><strong><b style="rgb(57,82,95)">Decisão Plenária da Liminar</b></strong><br /><pre>
+     Indeferiu-se o pedido de medida cautelar , unanimemente . Votou o
+Presidente .
+     - Plenário , 19.10.1988 .</pre><br /><br /><strong><b style="rgb(57,82,95)">Data de Julgamento Plenário da Liminar</b></strong><br />Plenário<br /><br /><strong><b style="rgb(57,82,95)">Data de Publicação da Liminar</b></strong><br /><br />Acórdão , DJ 17.02.1989 .<br /><br /><strong><b style="rgb(57,82,95)">Resultado Final</b></strong><br /><br />Improcedente
+<br /><br /><strong><b style="rgb(57,82,95)">Decisão Final</b></strong><br /><br /><pre>
+     Preliminarmente  o  Tribunal ,  examinando   questao   de   ordem
+apresentada  pelo  Sr.  Ministro  Celso  de  Mello ,   decidiu ,   por
+UNANIMIDADE , nao estar S. Exa. impedido de participar  do  julgamento
+da presente acao . Em seguida , tambem preliminarmente , o  Tribunal ,
+por   UNANIMIDADE ,   REJEITOU  a  arguicao   de   ilegitimidade    de
+representacao do autor ; tambem , por UNANIMIDADE ,  preliminarmente ,
+o Tribunal REJEITOU a arguicao de nao  conhecimento  da  acao  por  se
+tratar   de   mera   representacao   para   interpretacao   da   norma
+constitucional em causa ; ainda preliminarmente , o Tribunal ,  tambem
+por UNANIMIDADE , RECUSOU a arguicao de nao conhecimento da  acao  por
+nao ser normativo o ato impugnado . No Merito , POR MAIORIA ,  a  acao
+foi julgada IMPROCEDENTE, vencidos os Srs. Ministros  Marco  Aurelio ,
+Carlos Velloso , Paulo Brossard e o Presidente .
+     - Plenário , 07.03.1991 .<br /></pre><strong><b style="rgb(57,82,95)">Data de Julgamento Final</b></strong><br /><br />Plenário<br /><br /><strong><b style="rgb(57,82,95)">Data de Publicação da Decisão Final</b></strong><br /><br />Acórdão , 25.06.1993 .<br /><br /><b>Fim do Documento</b>
+				</div>
+			</div> 
+			
+			<div style="font-size: 6px;">&nbsp;</div>
+			
+      	<div id="rodape" style="padding-top: 5px; border-top: solid 1px silver;">
+      
+				Pra&ccedil;a dos Tr&ecirc;s Poderes - Bras&iacute;lia - DF - CEP 70175-900 Telefone: 55.61.3217.3000 | 
+					<a href="http://portal.stf.jus.br/centraldocidadao/">Telefones &Uacute;teis</a> | 
+					<a href="/portal/push/">STF Push</a> | 
+					<a href="../RSS/" class="rss">Canais RSS</a>
+			</div>
+	
+		</div>
+
+
+
+	</div> 
+	
+	<iframe title="Quadro de auto ajuda" id="sysQuadroAutoAjuda" style="display: none; position: absolute; border: 0px; z-index: 98;"></iframe>
+    <noframes> Seu navegador n&atilde;o suporta frames. </noframes>
+	
+	<script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    
+    <script type="text/javascript">
+      try {
+        var pageTracker = _gat._getTracker("UA-9066701-4");
+        pageTracker._trackPageview();
+      } catch(err) {}
+    </script>   
+   
+
+
+
+</body>
+
+</html>

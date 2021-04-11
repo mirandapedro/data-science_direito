@@ -1,0 +1,81 @@
+processo/verProcessoAndamento.asp?incidente=1480010">
+		<img src="../processo/imagem/botaoAcompanhamento.gif" width="169" height="22" border="0"></a>
+	</div>
+</div>
+	<div id="divImpressao"><div><h3><strong>AÇÃO DIRETA DE INCONSTITUCIONALIDADE (Med. Liminar) - <FONT COLOR=RED><B>1</B></FONT></strong></h3><table width="99%" cellspacing="5"><tr><td>Origem:</td><td><strong>RONDÔNIA</strong></td><td>Entrada no STF:</td><td><strong>06-Out-1988</strong></td></tr><tr><td>Relator:</td><td><strong>MINISTRO CÉLIO BORJA</strong></td><td>Distribuído:</td><td><strong>06-Out-1988</strong></td></tr><tr><td>Partes:</td><td colspan="3">Requerente: <strong>GOVERNADOR DO ESTADO DE RONDÔNIA
+( CF 103 , 00V )</strong><br />Requerido :<strong>GOVERNADOR DO ESTADO DE RONDÔNIA
+ASSEMBLÉIA LEGISLATIVA DO ESTADO DE RONDÔNIA</strong></td></tr></table></div><br /><strong><b style="rgb(57,82,95)">Dispositivo Legal Questionado</b></strong><br /><pre>
+     Argui inconstitucionalidade :
+
+     - do artigo 002 º  da Lei Estadual nº 139 , de 12 de dezembro  de
+1986 , que alterou  o   "caput" do artigo 086 do Decreto-Lei  Estadual
+nº 008 , de 25/01/82 ( Código de Organização e Divisão Judiciárias  do
+Estado de Rondônia ) ;
+
+     - da  expressão " ou privado " DO  PARÁGRAFO  001 º  e  parágrafo
+002 º acrescentados ao artigo  089 do Decreto-Lei Estadual nº 008 , de
+25 de janeiro de 1982 ,  pelo  artigo 003 º da Lei  Estadual  nº 139 ,
+de , 12 de dezembro de 1986 ;
+
+     - a  expressão " a  estes   incorporada "  do   artigo   090   do
+Decreto-Lei nº 008 /82 , com a redação que lhe foi  dada  pelo  artigo
+004 º da Lei nº 139 ;
+
+     - intepretação  do  inciso  III  do  artigo  089  do  Decreto-Lei
+nº 008 /82 , com a redação que lhe foi dada pelo  Decreto-Lei nº 056 ,
+de 27 de junho de 1983 .
+
+     - vinculação  de   vencimentos   dos   Desembargadores  aos   dos
+Ministros do Supremo Tribunal  Federal ;  contagem  do  adicional  por
+tempo de serviço privado , acumulação de adicional  por  quinqüênio  e
+incorporação da ajuda de custo e auxílio - moradia aos vencimentos dos
+Magistrados .</pre><br /><br /><strong><b style="rgb(57,82,95)">Fundamentação Constitucional</b></strong><br /><pre>
+- Art. 005 º
+- Art. 037 , 0IX , XII , XIII</pre><br /><br /><strong><b style="rgb(57,82,95)">Resultado da Liminar</b></strong><br /><br />Prejudicada
+<br /><br /><strong><b style="rgb(57,82,95)">Resultado Final</b></strong><br /><br />Decisão Monocrática - Negado Seguimento
+<br /><br /><strong><b style="rgb(57,82,95)">Decisão Monocrática Final</b></strong><br /><pre>     NEGADO SEGUIMENTO
+
+     "Por ser juridicamente impossível o pedido, NEGO-LHE SEGUIMENTO."
+
+     - Brasília , 24 de fevereiro de 1992 .
+     - Publicado DJ 27.02.1992 .</pre><br /><br /><b>Fim do Documento</b>
+				</div>
+			</div> 
+			
+			<div style="font-size: 6px;">&nbsp;</div>
+			
+      	<div id="rodape" style="padding-top: 5px; border-top: solid 1px silver;">
+      
+				Pra&ccedil;a dos Tr&ecirc;s Poderes - Bras&iacute;lia - DF - CEP 70175-900 Telefone: 55.61.3217.3000 | 
+					<a href="http://portal.stf.jus.br/centraldocidadao/">Telefones &Uacute;teis</a> | 
+					<a href="/portal/push/">STF Push</a> | 
+					<a href="../RSS/" class="rss">Canais RSS</a>
+			</div>
+	
+		</div>
+
+
+
+	</div> 
+	
+	<iframe title="Quadro de auto ajuda" id="sysQuadroAutoAjuda" style="display: none; position: absolute; border: 0px; z-index: 98;"></iframe>
+    <noframes> Seu navegador n&atilde;o suporta frames. </noframes>
+	
+	<script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    
+    <script type="text/javascript">
+      try {
+        var pageTracker = _gat._getTracker("UA-9066701-4");
+        pageTracker._trackPageview();
+      } catch(err) {}
+    </script>   
+   
+
+
+
+</body>
+
+</html>

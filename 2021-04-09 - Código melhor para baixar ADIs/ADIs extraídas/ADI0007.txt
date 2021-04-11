@@ -1,0 +1,96 @@
+processo/verProcessoAndamento.asp?incidente=1482149">
+		<img src="../processo/imagem/botaoAcompanhamento.gif" width="169" height="22" border="0"></a>
+	</div>
+</div>
+	<div id="divImpressao"><div><h3><strong>ACAO DIRETA DE INCONSTITUCIONALIDADE - 7</strong></h3><table width="99%" cellspacing="5"><tr><td>Origem:</td><td><strong>DISTRITO FEDERAL</strong></td><td>Entrada no STF:</td><td><strong>29-Nov-1988</strong></td></tr><tr><td>Relator:</td><td><strong>MINISTRO CELSO DE MELLO</strong></td><td>Distribuído:</td><td><strong>29-Nov-1988</strong></td></tr><tr><td>Partes:</td><td colspan="3">Requerente: <strong>CAMARA BRASILEIRA DA INDUSTRIA DA CONSTRUCAO - CBIC</strong><br />Requerido :<strong>PRESIDENTE DA REPUBLICA</strong></td></tr></table></div><br /><strong><b style="rgb(57,82,95)">Dispositivo Legal Questionado</b></strong><br /><pre>
+     Decreto-Lei Federal nº 2445 de 29 de junho de 1988 com a  redacao
+do Decreto-Lei Federal nº 2449 de 21 de julho de 1988 .
+
+     Base de calculo do PIS - PASEP</pre><br /><br /><strong><b style="rgb(57,82,95)">Fundamentação Constitucional</b></strong><br /><pre>
+- Artigo 150 , III , "b"</pre><br /><br /><strong><b style="rgb(57,82,95)">Resultado da Liminar</b></strong><br /><br />Sem Liminar
+<br /><br /><strong><b style="rgb(57,82,95)">Resultado Final</b></strong><br /><br />Não Conhecido
+<br /><br /><strong><b style="rgb(57,82,95)">Decisão Final</b></strong><br /><br /><pre>
+     Apos o voto do Sr. Ministro Relator que nao conhecia da acao  por
+impossibilidade juridica  do  pedido ,  o  julgamento  foi  adiado  em
+virtude do pedido de vista do Sr. Ministro Sepulveda Pertence .
+     - Plenario 04.10.1989 .
+
+     Por votacao unanime , o  Tribunal  nao  conheceu  da  acao ,  por
+impossibilidade juridica do pedido . Votou o Presidente .
+     - Plenario ,  07.02.92 .<br /></pre><strong><b style="rgb(57,82,95)">Data de Julgamento Final</b></strong><br /><br />Plenário<br /><br /><strong><b style="rgb(57,82,95)">Data de Publicação da Decisão Final</b></strong><br /><br />Acórdão , DJ 04.09.1992 .<br /><br /><strong><b style="rgb(57,82,95)">Incidentes</b></strong><br /><br /><pre>
+     QUESTÃO DE ORDEM - SUPERVENIÊNCIA CONSTITUCIONAL
+
+     EMENTA : Ação Direta de Inconstitucionalidade - impugnação de ato
+estatal   editado   anteriormente  a    vigência     da    CF /88    -
+Inconstitucionalidade  superveniente  -  Inocorrência  -  Hipótese  de
+revogação do ato hierarquicamente inferior por ausência de  recepção -
+impossibilidade de instauração do controle normativo abstrato  -  Ação
+Direta não conhecida .
+
+     A  ação   direta   de   inconstitucionalidade   não   se   revela
+instrumento    juridicamente   idôneo   ao   exame   da   legitimidade
+constitucional de atos normativos do poder  público  que  tenham  sido
+editados em momento anterior ao da vigência da constituição  sob  cuja
+Égide foi instaurado o controle normativo abstrato .
+
+     A  fiscalização  concentrada   de  constitucionalidade  supõe   a
+necessária existência de uma relação de contemporaneidade entre o  ato
+estatal impugnado e a carta política sob cujo domínio  normativo  veio
+ele a ser editado .
+
+     O entendimento de que leis pré-constitucionais não se predispõem,
+vigente   uma   nova   constituição ,  à   tutela   jurisdicional   de
+constitucionalidade " in abstracto " - orientação  jurisprudencial  já
+consagrada no regime anterior ( RTJ 095 / 980 - 095 / 993 - 099/ 544 )
+foi reafirmado por esta  corte ,  em  recentes  pronunciamentos  ,  na
+perspectiva da carta federal de 1988 .
+
+     A incompatibilidade  vertical  superveniente  de  atos  do  poder
+público , em face  de  um  novo  ordenamento  constitucional ,  traduz
+hipótese de pura e simples revogação dessas espécies jurídicas , posto
+que lhe são hierarquicamente inferiores .
+
+     O exame da revogação de leis ou atos normativos do poder  público
+constitui  materia  absolutamente  estranha   à   função   jurídico  -
+processual da ação direta de inconstitucionalidade .
+     - Acórdão , DJ 04.09.1992 .<br /></pre><b>Fim do Documento</b>
+				</div>
+			</div> 
+			
+			<div style="font-size: 6px;">&nbsp;</div>
+			
+      	<div id="rodape" style="padding-top: 5px; border-top: solid 1px silver;">
+      
+				Pra&ccedil;a dos Tr&ecirc;s Poderes - Bras&iacute;lia - DF - CEP 70175-900 Telefone: 55.61.3217.3000 | 
+					<a href="http://portal.stf.jus.br/centraldocidadao/">Telefones &Uacute;teis</a> | 
+					<a href="/portal/push/">STF Push</a> | 
+					<a href="../RSS/" class="rss">Canais RSS</a>
+			</div>
+	
+		</div>
+
+
+
+	</div> 
+	
+	<iframe title="Quadro de auto ajuda" id="sysQuadroAutoAjuda" style="display: none; position: absolute; border: 0px; z-index: 98;"></iframe>
+    <noframes> Seu navegador n&atilde;o suporta frames. </noframes>
+	
+	<script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    
+    <script type="text/javascript">
+      try {
+        var pageTracker = _gat._getTracker("UA-9066701-4");
+        pageTracker._trackPageview();
+      } catch(err) {}
+    </script>   
+   
+
+
+
+</body>
+
+</html>
