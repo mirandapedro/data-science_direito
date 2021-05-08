@@ -1,0 +1,1192 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20211.21.0320.1853                               -->
+<workbook original-version='18.1' source-build='2021.1.0 (20211.21.0320.1853)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='proposicoes-2020 (proposições - Copia)' inline='true' name='federated.0z3sw7d07niq101bzpw2d1pat1ku' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='proposições - Copia' name='excel-direct.1ylxt371eregfu1blhm1p1jbyb0o'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Pedro/Documents/GitHub/data-science_direito/data-science_direito/2021-04-16 - Rascunhos com Tableau - Pandemia e produção legislativa/proposições - Copia.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1ylxt371eregfu1blhm1p1jbyb0o' name='proposicoes-2020' table='[&apos;proposicoes-2020$&apos;]' type='table'>
+          <columns gridOrigin='A1:AF10001:no:A1:AF10001:0' header='yes' outcome='2'>
+            <column datatype='integer' name='id' ordinal='0' />
+            <column datatype='string' name='uri' ordinal='1' />
+            <column datatype='string' name='siglaTipo' ordinal='2' />
+            <column datatype='integer' name='numero' ordinal='3' />
+            <column datatype='integer' name='ano' ordinal='4' />
+            <column datatype='integer' name='codTipo' ordinal='5' />
+            <column datatype='string' name='descricaoTipo' ordinal='6' />
+            <column datatype='string' name='ementa' ordinal='7' />
+            <column datatype='string' name='ementaDetalhada' ordinal='8' />
+            <column datatype='string' name='keywords' ordinal='9' />
+            <column datatype='date' name='Data' ordinal='10' />
+            <column datatype='string' name='Coluna1' ordinal='11' />
+            <column datatype='datetime' name='dataApresentacao' ordinal='12' />
+            <column datatype='string' name='uriOrgaoNumerador' ordinal='13' />
+            <column datatype='string' name='uriPropAnterior' ordinal='14' />
+            <column datatype='string' name='uriPropPrincipal' ordinal='15' />
+            <column datatype='string' name='uriPropPosterior' ordinal='16' />
+            <column datatype='string' name='urlInteiroTeor' ordinal='17' />
+            <column datatype='string' name='urnFinal' ordinal='18' />
+            <column datatype='datetime' name='ultimoStatus_dataHora' ordinal='19' />
+            <column datatype='integer' name='ultimoStatus_sequencia' ordinal='20' />
+            <column datatype='string' name='ultimoStatus_uriRelator' ordinal='21' />
+            <column datatype='integer' name='ultimoStatus_idOrgao' ordinal='22' />
+            <column datatype='string' name='ultimoStatus_siglaOrgao' ordinal='23' />
+            <column datatype='string' name='ultimoStatus_uriOrgao' ordinal='24' />
+            <column datatype='string' name='ultimoStatus_regime' ordinal='25' />
+            <column datatype='string' name='ultimoStatus_descricaoTramitacao' ordinal='26' />
+            <column datatype='integer' name='ultimoStatus_idTipoTramitacao' ordinal='27' />
+            <column datatype='string' name='ultimoStatus_descricaoSituacao' ordinal='28' />
+            <column datatype='integer' name='ultimoStatus_idSituacao' ordinal='29' />
+            <column datatype='string' name='ultimoStatus_despacho' ordinal='30' />
+            <column datatype='string' name='ultimoStatus_url' ordinal='31' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1ylxt371eregfu1blhm1p1jbyb0o' name='proposicoes-2020' table='[&apos;proposicoes-2020$&apos;]' type='table'>
+          <columns gridOrigin='A1:AF10001:no:A1:AF10001:0' header='yes' outcome='2'>
+            <column datatype='integer' name='id' ordinal='0' />
+            <column datatype='string' name='uri' ordinal='1' />
+            <column datatype='string' name='siglaTipo' ordinal='2' />
+            <column datatype='integer' name='numero' ordinal='3' />
+            <column datatype='integer' name='ano' ordinal='4' />
+            <column datatype='integer' name='codTipo' ordinal='5' />
+            <column datatype='string' name='descricaoTipo' ordinal='6' />
+            <column datatype='string' name='ementa' ordinal='7' />
+            <column datatype='string' name='ementaDetalhada' ordinal='8' />
+            <column datatype='string' name='keywords' ordinal='9' />
+            <column datatype='date' name='Data' ordinal='10' />
+            <column datatype='string' name='Coluna1' ordinal='11' />
+            <column datatype='datetime' name='dataApresentacao' ordinal='12' />
+            <column datatype='string' name='uriOrgaoNumerador' ordinal='13' />
+            <column datatype='string' name='uriPropAnterior' ordinal='14' />
+            <column datatype='string' name='uriPropPrincipal' ordinal='15' />
+            <column datatype='string' name='uriPropPosterior' ordinal='16' />
+            <column datatype='string' name='urlInteiroTeor' ordinal='17' />
+            <column datatype='string' name='urnFinal' ordinal='18' />
+            <column datatype='datetime' name='ultimoStatus_dataHora' ordinal='19' />
+            <column datatype='integer' name='ultimoStatus_sequencia' ordinal='20' />
+            <column datatype='string' name='ultimoStatus_uriRelator' ordinal='21' />
+            <column datatype='integer' name='ultimoStatus_idOrgao' ordinal='22' />
+            <column datatype='string' name='ultimoStatus_siglaOrgao' ordinal='23' />
+            <column datatype='string' name='ultimoStatus_uriOrgao' ordinal='24' />
+            <column datatype='string' name='ultimoStatus_regime' ordinal='25' />
+            <column datatype='string' name='ultimoStatus_descricaoTramitacao' ordinal='26' />
+            <column datatype='integer' name='ultimoStatus_idTipoTramitacao' ordinal='27' />
+            <column datatype='string' name='ultimoStatus_descricaoSituacao' ordinal='28' />
+            <column datatype='integer' name='ultimoStatus_idSituacao' ordinal='29' />
+            <column datatype='string' name='ultimoStatus_despacho' ordinal='30' />
+            <column datatype='string' name='ultimoStatus_url' ordinal='31' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AF10001:no:A1:AF10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>uri</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[uri]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>uri</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>siglaTipo</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[siglaTipo]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>siglaTipo</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numero</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[numero]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>numero</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ano</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ano]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>ano</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>codTipo</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[codTipo]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>codTipo</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>descricaoTipo</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[descricaoTipo]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>descricaoTipo</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ementa</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ementa]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>ementa</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ementaDetalhada</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ementaDetalhada]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>ementaDetalhada</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>keywords</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[keywords]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>keywords</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Data</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Data]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>Data</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Coluna1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Coluna1]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>Coluna1</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dataApresentacao</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[dataApresentacao]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>dataApresentacao</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>uriOrgaoNumerador</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[uriOrgaoNumerador]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>uriOrgaoNumerador</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>uriPropAnterior</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[uriPropAnterior]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>uriPropAnterior</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>uriPropPrincipal</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[uriPropPrincipal]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>uriPropPrincipal</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>uriPropPosterior</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[uriPropPosterior]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>uriPropPosterior</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>urlInteiroTeor</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[urlInteiroTeor]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>urlInteiroTeor</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>urnFinal</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[urnFinal]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>urnFinal</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ultimoStatus_dataHora</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[ultimoStatus_dataHora]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>ultimoStatus_dataHora</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ultimoStatus_sequencia</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ultimoStatus_sequencia]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>ultimoStatus_sequencia</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ultimoStatus_uriRelator</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ultimoStatus_uriRelator]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>ultimoStatus_uriRelator</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ultimoStatus_idOrgao</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ultimoStatus_idOrgao]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>ultimoStatus_idOrgao</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ultimoStatus_siglaOrgao</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ultimoStatus_siglaOrgao]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>ultimoStatus_siglaOrgao</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ultimoStatus_uriOrgao</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ultimoStatus_uriOrgao]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>ultimoStatus_uriOrgao</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ultimoStatus_regime</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ultimoStatus_regime]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>ultimoStatus_regime</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ultimoStatus_descricaoTramitacao</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ultimoStatus_descricaoTramitacao]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>ultimoStatus_descricaoTramitacao</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ultimoStatus_idTipoTramitacao</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ultimoStatus_idTipoTramitacao]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>ultimoStatus_idTipoTramitacao</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ultimoStatus_descricaoSituacao</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ultimoStatus_descricaoSituacao]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>ultimoStatus_descricaoSituacao</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ultimoStatus_idSituacao</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ultimoStatus_idSituacao]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>ultimoStatus_idSituacao</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ultimoStatus_despacho</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ultimoStatus_despacho]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>ultimoStatus_despacho</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ultimoStatus_url</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ultimoStatus_url]</local-name>
+            <parent-name>[proposicoes-2020]</parent-name>
+            <remote-alias>ultimoStatus_url</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='proposicoes-2020' datatype='table' name='[__tableau_internal_object_id__].[proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3]' role='measure' type='quantitative' />
+      <column caption='Ano' datatype='integer' name='[ano]' role='dimension' type='quantitative' />
+      <column caption='Cod Tipo' datatype='integer' name='[codTipo]' role='measure' type='quantitative' />
+      <column caption='Data Apresentacao' datatype='datetime' name='[dataApresentacao]' role='dimension' type='ordinal' />
+      <column caption='Descricao Tipo' datatype='string' name='[descricaoTipo]' role='dimension' type='nominal' />
+      <column caption='Ementa Detalhada' datatype='string' name='[ementaDetalhada]' role='dimension' type='nominal' />
+      <column caption='Ementa' datatype='string' name='[ementa]' role='dimension' type='nominal' />
+      <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+      <column caption='Keywords' datatype='string' name='[keywords]' role='dimension' type='nominal' />
+      <column caption='Numero' datatype='integer' name='[numero]' role='measure' type='quantitative' />
+      <column caption='Sigla Tipo' datatype='string' name='[siglaTipo]' role='dimension' type='nominal' />
+      <column caption='ultimoStatus dataHora' datatype='datetime' name='[ultimoStatus_dataHora]' role='dimension' type='ordinal' />
+      <column caption='ultimoStatus descricaoSituacao' datatype='string' name='[ultimoStatus_descricaoSituacao]' role='dimension' type='nominal' />
+      <column caption='ultimoStatus descricaoTramitacao' datatype='string' name='[ultimoStatus_descricaoTramitacao]' role='dimension' type='nominal' />
+      <column caption='ultimoStatus despacho' datatype='string' name='[ultimoStatus_despacho]' role='dimension' type='nominal' />
+      <column caption='ultimoStatus idOrgao' datatype='integer' name='[ultimoStatus_idOrgao]' role='measure' type='quantitative' />
+      <column caption='ultimoStatus idSituacao' datatype='integer' name='[ultimoStatus_idSituacao]' role='measure' type='quantitative' />
+      <column caption='ultimoStatus idTipoTramitacao' datatype='integer' name='[ultimoStatus_idTipoTramitacao]' role='measure' type='quantitative' />
+      <column caption='ultimoStatus regime' datatype='string' name='[ultimoStatus_regime]' role='dimension' type='nominal' />
+      <column caption='ultimoStatus sequencia' datatype='integer' name='[ultimoStatus_sequencia]' role='measure' type='quantitative' />
+      <column caption='ultimoStatus siglaOrgao' datatype='string' name='[ultimoStatus_siglaOrgao]' role='dimension' type='nominal' />
+      <column caption='ultimoStatus uriOrgao' datatype='string' name='[ultimoStatus_uriOrgao]' role='dimension' type='nominal' />
+      <column caption='ultimoStatus uriRelator' datatype='string' name='[ultimoStatus_uriRelator]' role='dimension' type='nominal' />
+      <column caption='ultimoStatus url' datatype='string' name='[ultimoStatus_url]' role='dimension' type='nominal' />
+      <column caption='Uri Orgao Numerador' datatype='string' name='[uriOrgaoNumerador]' role='dimension' type='nominal' />
+      <column caption='Uri Prop Anterior' datatype='string' name='[uriPropAnterior]' role='dimension' type='nominal' />
+      <column caption='Uri Prop Posterior' datatype='string' name='[uriPropPosterior]' role='dimension' type='nominal' />
+      <column caption='Uri Prop Principal' datatype='string' name='[uriPropPrincipal]' role='dimension' type='nominal' />
+      <column caption='Uri' datatype='string' name='[uri]' role='dimension' type='nominal' />
+      <column caption='Url Inteiro Teor' datatype='string' name='[urlInteiroTeor]' role='dimension' type='nominal' />
+      <column caption='Urn Final' datatype='string' name='[urnFinal]' role='dimension' type='nominal' />
+      <column-instance column='[siglaTipo]' derivation='None' name='[none:siglaTipo:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:siglaTipo:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;EMA&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;PLN&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;RRL&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;AA&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;OFN&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;RCP&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;CON&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;PEP&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;REM&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;ERD&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;PPR&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;SBT-A&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;EMC&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;PLP&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;RST&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;CVO&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;PES&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;REQ&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;OBJ&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;PRST&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;ATACN&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;PAR&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;RDF&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;MPV&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;PRLP&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;TVR&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;DOC&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;PFC&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;RIC&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;INC&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;PRC&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;SIT&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;MCN&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;PRL&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;SSP&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;MSC&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;PRR&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;VTS&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;OF&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;PSS&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;EMP&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;PLV&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SBR&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;ECN&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;PL&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;RPD&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;AVN&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;PDL&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;REC&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;MIP&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;PRLE&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;SUG&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;EMS&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;PPP&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;SBT&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;CMC&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;PEC&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;REL&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Brazil&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='proposicoes-2020' id='proposicoes-2020_55F4FFEA6C7D490B8E8052DDF257A2C3'>
+            <properties context=''>
+              <relation connection='excel-direct.1ylxt371eregfu1blhm1p1jbyb0o' name='proposicoes-2020' table='[&apos;proposicoes-2020$&apos;]' type='table'>
+                <columns gridOrigin='A1:AF10001:no:A1:AF10001:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='id' ordinal='0' />
+                  <column datatype='string' name='uri' ordinal='1' />
+                  <column datatype='string' name='siglaTipo' ordinal='2' />
+                  <column datatype='integer' name='numero' ordinal='3' />
+                  <column datatype='integer' name='ano' ordinal='4' />
+                  <column datatype='integer' name='codTipo' ordinal='5' />
+                  <column datatype='string' name='descricaoTipo' ordinal='6' />
+                  <column datatype='string' name='ementa' ordinal='7' />
+                  <column datatype='string' name='ementaDetalhada' ordinal='8' />
+                  <column datatype='string' name='keywords' ordinal='9' />
+                  <column datatype='date' name='Data' ordinal='10' />
+                  <column datatype='string' name='Coluna1' ordinal='11' />
+                  <column datatype='datetime' name='dataApresentacao' ordinal='12' />
+                  <column datatype='string' name='uriOrgaoNumerador' ordinal='13' />
+                  <column datatype='string' name='uriPropAnterior' ordinal='14' />
+                  <column datatype='string' name='uriPropPrincipal' ordinal='15' />
+                  <column datatype='string' name='uriPropPosterior' ordinal='16' />
+                  <column datatype='string' name='urlInteiroTeor' ordinal='17' />
+                  <column datatype='string' name='urnFinal' ordinal='18' />
+                  <column datatype='datetime' name='ultimoStatus_dataHora' ordinal='19' />
+                  <column datatype='integer' name='ultimoStatus_sequencia' ordinal='20' />
+                  <column datatype='string' name='ultimoStatus_uriRelator' ordinal='21' />
+                  <column datatype='integer' name='ultimoStatus_idOrgao' ordinal='22' />
+                  <column datatype='string' name='ultimoStatus_siglaOrgao' ordinal='23' />
+                  <column datatype='string' name='ultimoStatus_uriOrgao' ordinal='24' />
+                  <column datatype='string' name='ultimoStatus_regime' ordinal='25' />
+                  <column datatype='string' name='ultimoStatus_descricaoTramitacao' ordinal='26' />
+                  <column datatype='integer' name='ultimoStatus_idTipoTramitacao' ordinal='27' />
+                  <column datatype='string' name='ultimoStatus_descricaoSituacao' ordinal='28' />
+                  <column datatype='integer' name='ultimoStatus_idSituacao' ordinal='29' />
+                  <column datatype='string' name='ultimoStatus_despacho' ordinal='30' />
+                  <column datatype='string' name='ultimoStatus_url' ordinal='31' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Planilha 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='proposicoes-2020 (proposições - Copia)' name='federated.0z3sw7d07niq101bzpw2d1pat1ku' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0z3sw7d07niq101bzpw2d1pat1ku'>
+            <column datatype='date' name='[Data]' role='dimension' type='ordinal' />
+            <column-instance column='[id]' derivation='Count' name='[cnt:id:qk]' pivot='key' type='quantitative' />
+            <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+            <column-instance column='[Data]' derivation='Month' name='[mn:Data:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[siglaTipo]' derivation='None' name='[none:siglaTipo:nk]' pivot='key' type='nominal' />
+            <column caption='Sigla Tipo' datatype='string' name='[siglaTipo]' role='dimension' type='nominal' />
+            <column-instance column='[Data]' derivation='Year' name='[yr:Data:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.0z3sw7d07niq101bzpw2d1pat1ku].[none:siglaTipo:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;AA&quot;</bucket>
+              <bucket>&quot;ATACN&quot;</bucket>
+              <bucket>&quot;AVN&quot;</bucket>
+              <bucket>&quot;CMC&quot;</bucket>
+              <bucket>&quot;CON&quot;</bucket>
+              <bucket>&quot;CVO&quot;</bucket>
+              <bucket>&quot;DOC&quot;</bucket>
+              <bucket>&quot;ECN&quot;</bucket>
+              <bucket>&quot;EMA&quot;</bucket>
+              <bucket>&quot;EMC&quot;</bucket>
+              <bucket>&quot;EMP&quot;</bucket>
+              <bucket>&quot;EMS&quot;</bucket>
+              <bucket>&quot;ERD&quot;</bucket>
+              <bucket>&quot;INC&quot;</bucket>
+              <bucket>&quot;MCN&quot;</bucket>
+              <bucket>&quot;MIP&quot;</bucket>
+              <bucket>&quot;MPV&quot;</bucket>
+              <bucket>&quot;MSC&quot;</bucket>
+              <bucket>&quot;OBJ&quot;</bucket>
+              <bucket>&quot;OF&quot;</bucket>
+              <bucket>&quot;OFN&quot;</bucket>
+              <bucket>&quot;PAR&quot;</bucket>
+              <bucket>&quot;PDL&quot;</bucket>
+              <bucket>&quot;PEC&quot;</bucket>
+              <bucket>&quot;PEP&quot;</bucket>
+              <bucket>&quot;PES&quot;</bucket>
+              <bucket>&quot;PFC&quot;</bucket>
+              <bucket>&quot;PLN&quot;</bucket>
+              <bucket>&quot;PLP&quot;</bucket>
+              <bucket>&quot;PLV&quot;</bucket>
+              <bucket>&quot;PPP&quot;</bucket>
+              <bucket>&quot;PPR&quot;</bucket>
+              <bucket>&quot;PRC&quot;</bucket>
+              <bucket>&quot;PRL&quot;</bucket>
+              <bucket>&quot;PRLE&quot;</bucket>
+              <bucket>&quot;PRLP&quot;</bucket>
+              <bucket>&quot;PRR&quot;</bucket>
+              <bucket>&quot;PRST&quot;</bucket>
+              <bucket>&quot;PSS&quot;</bucket>
+              <bucket>&quot;RCP&quot;</bucket>
+              <bucket>&quot;RDF&quot;</bucket>
+              <bucket>&quot;REC&quot;</bucket>
+              <bucket>&quot;REL&quot;</bucket>
+              <bucket>&quot;REM&quot;</bucket>
+              <bucket>&quot;REQ&quot;</bucket>
+              <bucket>&quot;RIC&quot;</bucket>
+              <bucket>&quot;RPD&quot;</bucket>
+              <bucket>&quot;RRL&quot;</bucket>
+              <bucket>&quot;RST&quot;</bucket>
+              <bucket>&quot;SBR&quot;</bucket>
+              <bucket>&quot;SBT&quot;</bucket>
+              <bucket>&quot;SBT-A&quot;</bucket>
+              <bucket>&quot;SIT&quot;</bucket>
+              <bucket>&quot;SSP&quot;</bucket>
+              <bucket>&quot;SUG&quot;</bucket>
+              <bucket>&quot;TVR&quot;</bucket>
+              <bucket>&quot;VTS&quot;</bucket>
+              <bucket>&quot;PL&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.0z3sw7d07niq101bzpw2d1pat1ku].[yr:Data:ok]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[yr:Data:ok]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[yr:Data:ok]' member='2013' />
+                <groupfilter function='member' level='[yr:Data:ok]' member='2016' />
+                <groupfilter function='member' level='[yr:Data:ok]' member='2021' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0z3sw7d07niq101bzpw2d1pat1ku].[yr:Data:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0z3sw7d07niq101bzpw2d1pat1ku].[none:siglaTipo:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.0z3sw7d07niq101bzpw2d1pat1ku].[cnt:id:qk]' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.0z3sw7d07niq101bzpw2d1pat1ku].[cnt:id:qk]' z-order='1' />
+          </pane>
+        </panes>
+        <rows>[federated.0z3sw7d07niq101bzpw2d1pat1ku].[cnt:id:qk]</rows>
+        <cols>[federated.0z3sw7d07niq101bzpw2d1pat1ku].[mn:Data:ok]</cols>
+      </table>
+      <simple-id uuid='{E3518F32-5D79-4C91-9B18-C921105700F3}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Planilha 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.0z3sw7d07niq101bzpw2d1pat1ku].[none:siglaTipo:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0z3sw7d07niq101bzpw2d1pat1ku].[none:id:ok]</field>
+            <field>[federated.0z3sw7d07niq101bzpw2d1pat1ku].[none:siglaTipo:nk]</field>
+            <field>[federated.0z3sw7d07niq101bzpw2d1pat1ku].[yr:Data:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{2ABB2FD5-9BB1-4E7D-A1C0-9A686BB9AF3D}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Planilha 1' width='192'>
+      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
+      AABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>

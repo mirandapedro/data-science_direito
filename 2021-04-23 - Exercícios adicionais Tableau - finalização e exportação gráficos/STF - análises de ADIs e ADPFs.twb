@@ -1,0 +1,2901 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20211.21.0320.1853                               -->
+<workbook original-version='18.1' source-build='2021.1.0 (20211.21.0320.1853)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='ADI +ADPF+ (Múltiplas conexões)' inline='true' name='federated.0wdtdi204nsgrj1h0as191hzk2h9' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='ADIsADPFsAndamentos' name='excel-direct.1bnrs701xqaux81626px908j2efk'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Pedro/Documents/GitHub/data-science_direito/data-science_direito/2021-04-23 - Exercícios adicionais Tableau - finalização e exportação gráficos/ADIsADPFsAndamentos.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+          <named-connection caption='Base Artigo 2018' name='excel-direct.115kq951qj99sm1598iou08naxpa'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Pedro/Documents/GitHub/data-science_direito/data-science_direito/2021-04-23 - Exercícios adicionais Tableau - finalização e exportação gráficos/Base Artigo 2018.xlsm' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.115kq951qj99sm1598iou08naxpa' name='ADI +ADPF' table='[&apos;ADI +ADPF$&apos;]' type='table'>
+          <columns gridOrigin='A1:AI6079:no:A1:AI6079:0' header='yes' outcome='2'>
+            <column datatype='string' name='Processo' ordinal='0' />
+            <column datatype='string' name='Classe' ordinal='1' />
+            <column datatype='integer' name='Número' ordinal='2' />
+            <column datatype='string' name='Classe (complemento)' ordinal='3' />
+            <column datatype='string' name='Relação com outras Ações' ordinal='4' />
+            <column datatype='string' name='Processo Relacionado' ordinal='5' />
+            <column datatype='date' name='Ingresso no STF' ordinal='6' />
+            <column datatype='string' name='Extinção imediata' ordinal='7' />
+            <column datatype='string' name='Origem do ato impugnado' ordinal='8' />
+            <column datatype='string' name='Requerente 1' ordinal='9' />
+            <column datatype='integer' name='Código Requerente' ordinal='10' />
+            <column datatype='string' name='Tipo Requerente 1' ordinal='11' />
+            <column datatype='string' name='Requerente 2' ordinal='12' />
+            <column datatype='string' name='Interessado 1' ordinal='13' />
+            <column datatype='string' name='Interessado 2' ordinal='14' />
+            <column datatype='string' name='Estadual contra estadual' ordinal='15' />
+            <column datatype='string' name='Ato questionado (Base STF)' ordinal='16' />
+            <column datatype='string' name='Ato Impugnado Código' ordinal='17' />
+            <column datatype='string' name='Ato impugnado espécie' ordinal='18' />
+            <column datatype='string' name='Decisão Monocrática da liminar' ordinal='19' />
+            <column datatype='string' name='Decisão Monocrática da liminar (complemento)' ordinal='20' />
+            <column datatype='string' name='Data da Decisão Monocrática da liminar' ordinal='21' />
+            <column datatype='string' name='Decisão colegiada da liminar' ordinal='22' />
+            <column datatype='date' name='Data da decisão colegiada da liminar' ordinal='23' />
+            <column datatype='string' name='Resultado da Liminar (complemento)' ordinal='24' />
+            <column datatype='string' name='Resultado da Liminar' ordinal='25' />
+            <column datatype='string' name='Órgão da Liminar' ordinal='26' />
+            <column datatype='string' name='Data da Liminar' ordinal='27' />
+            <column datatype='string' name='Órgão Julgamento Final' ordinal='28' />
+            <column datatype='string' name='Resultado Final' ordinal='29' />
+            <column datatype='string' name='Resultado final tratado (complemento)' ordinal='30' />
+            <column datatype='real' name='Tempo tramitação em anos' ordinal='31' />
+            <column datatype='integer' name='Tempo de tramitação (em dias)' ordinal='32' />
+            <column datatype='date' name='Termo final' ordinal='33' />
+            <column datatype='date' name='Data julgamento do mérito' ordinal='34' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='excel-direct.115kq951qj99sm1598iou08naxpa' name='ADI +ADPF' table='[&apos;ADI +ADPF$&apos;]' type='table'>
+            <columns gridOrigin='A1:AI6079:no:A1:AI6079:0' header='yes' outcome='2'>
+              <column datatype='string' name='Processo' ordinal='0' />
+              <column datatype='string' name='Classe' ordinal='1' />
+              <column datatype='integer' name='Número' ordinal='2' />
+              <column datatype='string' name='Classe (complemento)' ordinal='3' />
+              <column datatype='string' name='Relação com outras Ações' ordinal='4' />
+              <column datatype='string' name='Processo Relacionado' ordinal='5' />
+              <column datatype='date' name='Ingresso no STF' ordinal='6' />
+              <column datatype='string' name='Extinção imediata' ordinal='7' />
+              <column datatype='string' name='Origem do ato impugnado' ordinal='8' />
+              <column datatype='string' name='Requerente 1' ordinal='9' />
+              <column datatype='integer' name='Código Requerente' ordinal='10' />
+              <column datatype='string' name='Tipo Requerente 1' ordinal='11' />
+              <column datatype='string' name='Requerente 2' ordinal='12' />
+              <column datatype='string' name='Interessado 1' ordinal='13' />
+              <column datatype='string' name='Interessado 2' ordinal='14' />
+              <column datatype='string' name='Estadual contra estadual' ordinal='15' />
+              <column datatype='string' name='Ato questionado (Base STF)' ordinal='16' />
+              <column datatype='string' name='Ato Impugnado Código' ordinal='17' />
+              <column datatype='string' name='Ato impugnado espécie' ordinal='18' />
+              <column datatype='string' name='Decisão Monocrática da liminar' ordinal='19' />
+              <column datatype='string' name='Decisão Monocrática da liminar (complemento)' ordinal='20' />
+              <column datatype='string' name='Data da Decisão Monocrática da liminar' ordinal='21' />
+              <column datatype='string' name='Decisão colegiada da liminar' ordinal='22' />
+              <column datatype='date' name='Data da decisão colegiada da liminar' ordinal='23' />
+              <column datatype='string' name='Resultado da Liminar (complemento)' ordinal='24' />
+              <column datatype='string' name='Resultado da Liminar' ordinal='25' />
+              <column datatype='string' name='Órgão da Liminar' ordinal='26' />
+              <column datatype='string' name='Data da Liminar' ordinal='27' />
+              <column datatype='string' name='Órgão Julgamento Final' ordinal='28' />
+              <column datatype='string' name='Resultado Final' ordinal='29' />
+              <column datatype='string' name='Resultado final tratado (complemento)' ordinal='30' />
+              <column datatype='real' name='Tempo tramitação em anos' ordinal='31' />
+              <column datatype='integer' name='Tempo de tramitação (em dias)' ordinal='32' />
+              <column datatype='date' name='Termo final' ordinal='33' />
+              <column datatype='date' name='Data julgamento do mérito' ordinal='34' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1bnrs701xqaux81626px908j2efk' name='ADIsADPFsAndamentos' table='[ADIsADPFsAndamentos$]' type='table'>
+            <columns gridOrigin='A1:Z7235:no:A1:Z7235:0' header='yes' outcome='2'>
+              <column datatype='string' name='string:processo' ordinal='0' />
+              <column datatype='integer' name='int: len(andamentos)' ordinal='1' />
+              <column datatype='integer' name='int: len(str(andamentos))' ordinal='2' />
+              <column datatype='string' name='lista2: andamentos' ordinal='3' />
+              <column datatype='string' name='andamentos filtrados' ordinal='4' />
+              <column datatype='integer' name='andamentos excluidos' ordinal='5' />
+              <column datatype='string' name='interlocutorias' ordinal='6' />
+              <column datatype='string' name='atas' ordinal='7' />
+              <column datatype='string' name='virtual' ordinal='8' />
+              <column datatype='string' name='redistribui' ordinal='9' />
+              <column datatype='string' name='embargos' ordinal='10' />
+              <column datatype='string' name='despachos' ordinal='11' />
+              <column datatype='string' name='agravos' ordinal='12' />
+              <column datatype='string' name='pautas' ordinal='13' />
+              <column datatype='string' name='pedidos' ordinal='14' />
+              <column datatype='string' name='transito em julgado' ordinal='15' />
+              <column datatype='string' name='baixados' ordinal='16' />
+              <column datatype='string' name='processofindo' ordinal='17' />
+              <column datatype='string' name='protocolado' ordinal='18' />
+              <column datatype='string' name='autuado' ordinal='19' />
+              <column datatype='date' name='distribuido em' ordinal='20' />
+              <column datatype='string' name='primeiro relator' ordinal='21' />
+              <column datatype='string' name='prevencao' ordinal='22' />
+              <column datatype='string' name='ministroexcluido' ordinal='23' />
+              <column datatype='string' name='ritoart12' ordinal='24' />
+              <column datatype='string' name='conexo a' ordinal='25' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AI6079:no:A1:AI6079:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ADIsADPFsAndamentos]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:Z7235:no:A1:Z7235:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Processo</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Processo]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Processo</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Classe</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Classe]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Classe</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Número</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Número]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Número</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Classe (complemento)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Classe (complemento)]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Classe (complemento)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Relação com outras Ações</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Relação com outras Ações]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Relação com outras Ações</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Processo Relacionado</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Processo Relacionado]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Processo Relacionado</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ingresso no STF</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Ingresso no STF]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Ingresso no STF</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Extinção imediata</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Extinção imediata]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Extinção imediata</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Origem do ato impugnado</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Origem do ato impugnado]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Origem do ato impugnado</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Requerente 1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Requerente 1]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Requerente 1</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Código Requerente</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Código Requerente]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Código Requerente</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tipo Requerente 1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Tipo Requerente 1]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Tipo Requerente 1</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Requerente 2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Requerente 2]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Requerente 2</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Interessado 1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Interessado 1]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Interessado 1</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Interessado 2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Interessado 2]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Interessado 2</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Estadual contra estadual</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Estadual contra estadual]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Estadual contra estadual</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ato questionado (Base STF)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Ato questionado (Base STF)]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Ato questionado (Base STF)</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ato Impugnado Código</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Ato Impugnado Código]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Ato Impugnado Código</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ato impugnado espécie</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Ato impugnado espécie]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Ato impugnado espécie</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Decisão Monocrática da liminar</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Decisão Monocrática da liminar]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Decisão Monocrática da liminar</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Decisão Monocrática da liminar (complemento)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Decisão Monocrática da liminar (complemento)]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Decisão Monocrática da liminar (complemento)</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Data da Decisão Monocrática da liminar</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Data da Decisão Monocrática da liminar]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Data da Decisão Monocrática da liminar</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Decisão colegiada da liminar</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Decisão colegiada da liminar]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Decisão colegiada da liminar</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Data da decisão colegiada da liminar</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Data da decisão colegiada da liminar]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Data da decisão colegiada da liminar</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Resultado da Liminar (complemento)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Resultado da Liminar (complemento)]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Resultado da Liminar (complemento)</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Resultado da Liminar</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Resultado da Liminar]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Resultado da Liminar</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Órgão da Liminar</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Órgão da Liminar]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Órgão da Liminar</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Data da Liminar</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Data da Liminar]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Data da Liminar</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Órgão Julgamento Final</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Órgão Julgamento Final]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Órgão Julgamento Final</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Resultado Final</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Resultado Final]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Resultado Final</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Resultado final tratado (complemento)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Resultado final tratado (complemento)]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Resultado final tratado (complemento)</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tempo tramitação em anos</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Tempo tramitação em anos]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Tempo tramitação em anos</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tempo de tramitação (em dias)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tempo de tramitação (em dias)]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Tempo de tramitação (em dias)</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Termo final</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Termo final]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Termo final</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Data julgamento do mérito</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Data julgamento do mérito]</local-name>
+            <parent-name>[ADI +ADPF]</parent-name>
+            <remote-alias>Data julgamento do mérito</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>string:processo</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[string:processo]</local-name>
+            <parent-name>[ADIsADPFsAndamentos]</parent-name>
+            <remote-alias>string:processo</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADIsADPFsAndamentos_89990E32D0B84AA48336CDD4F0D01449]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>int: len(andamentos)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[int: len(andamentos)]</local-name>
+            <parent-name>[ADIsADPFsAndamentos]</parent-name>
+            <remote-alias>int: len(andamentos)</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADIsADPFsAndamentos_89990E32D0B84AA48336CDD4F0D01449]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>int: len(str(andamentos))</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[int: len(str(andamentos))]</local-name>
+            <parent-name>[ADIsADPFsAndamentos]</parent-name>
+            <remote-alias>int: len(str(andamentos))</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADIsADPFsAndamentos_89990E32D0B84AA48336CDD4F0D01449]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lista2: andamentos</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[lista2: andamentos]</local-name>
+            <parent-name>[ADIsADPFsAndamentos]</parent-name>
+            <remote-alias>lista2: andamentos</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADIsADPFsAndamentos_89990E32D0B84AA48336CDD4F0D01449]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>andamentos filtrados</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[andamentos filtrados]</local-name>
+            <parent-name>[ADIsADPFsAndamentos]</parent-name>
+            <remote-alias>andamentos filtrados</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADIsADPFsAndamentos_89990E32D0B84AA48336CDD4F0D01449]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>andamentos excluidos</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[andamentos excluidos]</local-name>
+            <parent-name>[ADIsADPFsAndamentos]</parent-name>
+            <remote-alias>andamentos excluidos</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADIsADPFsAndamentos_89990E32D0B84AA48336CDD4F0D01449]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>interlocutorias</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[interlocutorias]</local-name>
+            <parent-name>[ADIsADPFsAndamentos]</parent-name>
+            <remote-alias>interlocutorias</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADIsADPFsAndamentos_89990E32D0B84AA48336CDD4F0D01449]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>atas</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[atas]</local-name>
+            <parent-name>[ADIsADPFsAndamentos]</parent-name>
+            <remote-alias>atas</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADIsADPFsAndamentos_89990E32D0B84AA48336CDD4F0D01449]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>virtual</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[virtual]</local-name>
+            <parent-name>[ADIsADPFsAndamentos]</parent-name>
+            <remote-alias>virtual</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADIsADPFsAndamentos_89990E32D0B84AA48336CDD4F0D01449]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>redistribui</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[redistribui]</local-name>
+            <parent-name>[ADIsADPFsAndamentos]</parent-name>
+            <remote-alias>redistribui</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADIsADPFsAndamentos_89990E32D0B84AA48336CDD4F0D01449]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>embargos</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[embargos]</local-name>
+            <parent-name>[ADIsADPFsAndamentos]</parent-name>
+            <remote-alias>embargos</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADIsADPFsAndamentos_89990E32D0B84AA48336CDD4F0D01449]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>despachos</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[despachos]</local-name>
+            <parent-name>[ADIsADPFsAndamentos]</parent-name>
+            <remote-alias>despachos</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADIsADPFsAndamentos_89990E32D0B84AA48336CDD4F0D01449]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>agravos</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[agravos]</local-name>
+            <parent-name>[ADIsADPFsAndamentos]</parent-name>
+            <remote-alias>agravos</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADIsADPFsAndamentos_89990E32D0B84AA48336CDD4F0D01449]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pautas</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[pautas]</local-name>
+            <parent-name>[ADIsADPFsAndamentos]</parent-name>
+            <remote-alias>pautas</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADIsADPFsAndamentos_89990E32D0B84AA48336CDD4F0D01449]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pedidos</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[pedidos]</local-name>
+            <parent-name>[ADIsADPFsAndamentos]</parent-name>
+            <remote-alias>pedidos</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADIsADPFsAndamentos_89990E32D0B84AA48336CDD4F0D01449]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>transito em julgado</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[transito em julgado]</local-name>
+            <parent-name>[ADIsADPFsAndamentos]</parent-name>
+            <remote-alias>transito em julgado</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADIsADPFsAndamentos_89990E32D0B84AA48336CDD4F0D01449]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>baixados</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[baixados]</local-name>
+            <parent-name>[ADIsADPFsAndamentos]</parent-name>
+            <remote-alias>baixados</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADIsADPFsAndamentos_89990E32D0B84AA48336CDD4F0D01449]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>processofindo</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[processofindo]</local-name>
+            <parent-name>[ADIsADPFsAndamentos]</parent-name>
+            <remote-alias>processofindo</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADIsADPFsAndamentos_89990E32D0B84AA48336CDD4F0D01449]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>protocolado</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[protocolado]</local-name>
+            <parent-name>[ADIsADPFsAndamentos]</parent-name>
+            <remote-alias>protocolado</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADIsADPFsAndamentos_89990E32D0B84AA48336CDD4F0D01449]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>autuado</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[autuado]</local-name>
+            <parent-name>[ADIsADPFsAndamentos]</parent-name>
+            <remote-alias>autuado</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADIsADPFsAndamentos_89990E32D0B84AA48336CDD4F0D01449]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>distribuido em</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[distribuido em]</local-name>
+            <parent-name>[ADIsADPFsAndamentos]</parent-name>
+            <remote-alias>distribuido em</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADIsADPFsAndamentos_89990E32D0B84AA48336CDD4F0D01449]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>primeiro relator</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[primeiro relator]</local-name>
+            <parent-name>[ADIsADPFsAndamentos]</parent-name>
+            <remote-alias>primeiro relator</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADIsADPFsAndamentos_89990E32D0B84AA48336CDD4F0D01449]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>prevencao</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[prevencao]</local-name>
+            <parent-name>[ADIsADPFsAndamentos]</parent-name>
+            <remote-alias>prevencao</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADIsADPFsAndamentos_89990E32D0B84AA48336CDD4F0D01449]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ministroexcluido</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ministroexcluido]</local-name>
+            <parent-name>[ADIsADPFsAndamentos]</parent-name>
+            <remote-alias>ministroexcluido</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADIsADPFsAndamentos_89990E32D0B84AA48336CDD4F0D01449]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ritoart12</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ritoart12]</local-name>
+            <parent-name>[ADIsADPFsAndamentos]</parent-name>
+            <remote-alias>ritoart12</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADIsADPFsAndamentos_89990E32D0B84AA48336CDD4F0D01449]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>conexo a</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[conexo a]</local-name>
+            <parent-name>[ADIsADPFsAndamentos]</parent-name>
+            <remote-alias>conexo a</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ADIsADPFsAndamentos_89990E32D0B84AA48336CDD4F0D01449]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Código Requerente]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Feredal e Estadual]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[Origem do ato impugnado]' new-bin='true'>
+          <bin default-name='false' value='&quot;Atos Estaduais&quot;'>
+            <value>&quot;AC&quot;</value>
+            <value>&quot;AL&quot;</value>
+            <value>&quot;AM&quot;</value>
+            <value>&quot;AP&quot;</value>
+            <value>&quot;BA&quot;</value>
+            <value>&quot;CE&quot;</value>
+            <value>&quot;DF&quot;</value>
+            <value>&quot;ES&quot;</value>
+            <value>&quot;GO&quot;</value>
+            <value>&quot;MA&quot;</value>
+            <value>&quot;MG&quot;</value>
+            <value>&quot;MS&quot;</value>
+            <value>&quot;MT&quot;</value>
+            <value>&quot;Múltiplos&quot;</value>
+            <value>&quot;PA&quot;</value>
+            <value>&quot;PB&quot;</value>
+            <value>&quot;PE&quot;</value>
+            <value>&quot;PI&quot;</value>
+            <value>&quot;PR&quot;</value>
+            <value>&quot;RJ&quot;</value>
+            <value>&quot;RN&quot;</value>
+            <value>&quot;RO&quot;</value>
+            <value>&quot;RR&quot;</value>
+            <value>&quot;RS&quot;</value>
+            <value>&quot;SC&quot;</value>
+            <value>&quot;SE&quot;</value>
+            <value>&quot;SP&quot;</value>
+            <value>&quot;TO&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Federais&quot;'>
+            <value>&quot;FEDERAL&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='date' name='[Ingresso no STF]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Origem do ato impugnado]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Resultado da Liminar]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Tipo Requerente 1]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='ADI +ADPF' datatype='table' name='[__tableau_internal_object_id__].[ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='ADIsADPFsAndamentos' datatype='table' name='[__tableau_internal_object_id__].[ADIsADPFsAndamentos_89990E32D0B84AA48336CDD4F0D01449]' role='measure' type='quantitative' />
+      <column caption='Agravos' datatype='string' name='[agravos]' role='dimension' type='nominal' />
+      <column caption='Andamentos Excluidos' datatype='integer' name='[andamentos excluidos]' role='measure' type='quantitative' />
+      <column caption='Andamentos Filtrados' datatype='string' name='[andamentos filtrados]' role='dimension' type='nominal' />
+      <column caption='Atas' datatype='string' name='[atas]' role='dimension' type='nominal' />
+      <column caption='Autuado' datatype='string' name='[autuado]' role='dimension' type='nominal' />
+      <column caption='Baixados' datatype='string' name='[baixados]' role='dimension' type='nominal' />
+      <column caption='Conexo A' datatype='string' name='[conexo a]' role='dimension' type='nominal' />
+      <column caption='Despachos' datatype='string' name='[despachos]' role='dimension' type='nominal' />
+      <column caption='Distribuido Em' datatype='date' name='[distribuido em]' role='dimension' type='ordinal' />
+      <column caption='Embargos' datatype='string' name='[embargos]' role='dimension' type='nominal' />
+      <column caption='Int: Len(Andamentos)' datatype='integer' name='[int: len(andamentos)]' role='measure' type='quantitative' />
+      <column caption='Int: Len(Str(Andamentos))' datatype='integer' name='[int: len(str(andamentos))]' role='measure' type='quantitative' />
+      <column caption='Interlocutorias' datatype='string' name='[interlocutorias]' role='dimension' type='nominal' />
+      <column caption='Lista2: Andamentos' datatype='string' name='[lista2: andamentos]' role='dimension' type='nominal' />
+      <column caption='Ministroexcluido' datatype='string' name='[ministroexcluido]' role='dimension' type='nominal' />
+      <column caption='Pautas' datatype='string' name='[pautas]' role='dimension' type='nominal' />
+      <column caption='Pedidos' datatype='string' name='[pedidos]' role='dimension' type='nominal' />
+      <column caption='Prevencao' datatype='string' name='[prevencao]' role='dimension' type='nominal' />
+      <column caption='Primeiro Relator' datatype='string' name='[primeiro relator]' role='dimension' type='nominal' />
+      <column caption='Processofindo' datatype='string' name='[processofindo]' role='dimension' type='nominal' />
+      <column caption='Protocolado' datatype='string' name='[protocolado]' role='dimension' type='nominal' />
+      <column caption='Redistribui' datatype='string' name='[redistribui]' role='dimension' type='nominal' />
+      <column caption='Ritoart12' datatype='string' name='[ritoart12]' role='dimension' type='nominal' />
+      <column caption='String:Processo' datatype='string' name='[string:processo]' role='dimension' type='nominal' />
+      <column caption='Transito Em Julgado' datatype='string' name='[transito em julgado]' role='dimension' type='nominal' />
+      <column caption='Virtual' datatype='string' name='[virtual]' role='dimension' type='nominal' />
+      <column-instance column='[Origem do ato impugnado]' derivation='None' name='[none:Origem do ato impugnado:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Resultado da Liminar]' derivation='None' name='[none:Resultado da Liminar:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Tipo Requerente 1]' derivation='None' name='[none:Tipo Requerente 1:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Ingresso no STF]' derivation='Year' name='[yr:Ingresso no STF:ok]' pivot='key' type='ordinal' />
+      <group hidden='true' name='[Exclusões (ANO(Ingresso no STF),Resultado da Liminar)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[yr:Ingresso no STF:ok]' />
+          <groupfilter function='level-members' level='[none:Resultado da Liminar:nk]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Origem do ato impugnado:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;FEDERAL&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;TO&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;AC&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;RJ&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;BA&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;RS&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;MS&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;GO&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;CE&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;SC&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;PI&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;AL&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;RN&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;PB&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;DF&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;SE&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;MT&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Múltiplos&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;PE&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;PR&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;MA&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;ES&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;SP&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;AM&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;RO&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;PA&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;MG&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;AP&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;RR&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Tipo Requerente 1:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Partido Político&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Assembléia Legislativa&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Mesa do Senado&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Presidente da República&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Pessoa jurídica sem caráter nacional ou caráter sindical/de classe&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;OAB&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Entidade Sindical/de classe de âmbito nacional&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Outras entidades partidárias&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Pessoas físicas&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Outros&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Governador&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;PGR&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Mesa da Câmara&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Resultado da Liminar:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Prejudicada&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Indeferida&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Rito do art. 12&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Deferida&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Revogada&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Aguardando julgamento&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Sem liminar&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Brazil&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='ADI +ADPF' id='ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44'>
+            <properties context=''>
+              <relation connection='excel-direct.115kq951qj99sm1598iou08naxpa' name='ADI +ADPF' table='[&apos;ADI +ADPF$&apos;]' type='table'>
+                <columns gridOrigin='A1:AI6079:no:A1:AI6079:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Processo' ordinal='0' />
+                  <column datatype='string' name='Classe' ordinal='1' />
+                  <column datatype='integer' name='Número' ordinal='2' />
+                  <column datatype='string' name='Classe (complemento)' ordinal='3' />
+                  <column datatype='string' name='Relação com outras Ações' ordinal='4' />
+                  <column datatype='string' name='Processo Relacionado' ordinal='5' />
+                  <column datatype='date' name='Ingresso no STF' ordinal='6' />
+                  <column datatype='string' name='Extinção imediata' ordinal='7' />
+                  <column datatype='string' name='Origem do ato impugnado' ordinal='8' />
+                  <column datatype='string' name='Requerente 1' ordinal='9' />
+                  <column datatype='integer' name='Código Requerente' ordinal='10' />
+                  <column datatype='string' name='Tipo Requerente 1' ordinal='11' />
+                  <column datatype='string' name='Requerente 2' ordinal='12' />
+                  <column datatype='string' name='Interessado 1' ordinal='13' />
+                  <column datatype='string' name='Interessado 2' ordinal='14' />
+                  <column datatype='string' name='Estadual contra estadual' ordinal='15' />
+                  <column datatype='string' name='Ato questionado (Base STF)' ordinal='16' />
+                  <column datatype='string' name='Ato Impugnado Código' ordinal='17' />
+                  <column datatype='string' name='Ato impugnado espécie' ordinal='18' />
+                  <column datatype='string' name='Decisão Monocrática da liminar' ordinal='19' />
+                  <column datatype='string' name='Decisão Monocrática da liminar (complemento)' ordinal='20' />
+                  <column datatype='string' name='Data da Decisão Monocrática da liminar' ordinal='21' />
+                  <column datatype='string' name='Decisão colegiada da liminar' ordinal='22' />
+                  <column datatype='date' name='Data da decisão colegiada da liminar' ordinal='23' />
+                  <column datatype='string' name='Resultado da Liminar (complemento)' ordinal='24' />
+                  <column datatype='string' name='Resultado da Liminar' ordinal='25' />
+                  <column datatype='string' name='Órgão da Liminar' ordinal='26' />
+                  <column datatype='string' name='Data da Liminar' ordinal='27' />
+                  <column datatype='string' name='Órgão Julgamento Final' ordinal='28' />
+                  <column datatype='string' name='Resultado Final' ordinal='29' />
+                  <column datatype='string' name='Resultado final tratado (complemento)' ordinal='30' />
+                  <column datatype='real' name='Tempo tramitação em anos' ordinal='31' />
+                  <column datatype='integer' name='Tempo de tramitação (em dias)' ordinal='32' />
+                  <column datatype='date' name='Termo final' ordinal='33' />
+                  <column datatype='date' name='Data julgamento do mérito' ordinal='34' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='ADIsADPFsAndamentos' id='ADIsADPFsAndamentos_89990E32D0B84AA48336CDD4F0D01449'>
+            <properties context=''>
+              <relation connection='excel-direct.1bnrs701xqaux81626px908j2efk' name='ADIsADPFsAndamentos' table='[ADIsADPFsAndamentos$]' type='table'>
+                <columns gridOrigin='A1:Z7235:no:A1:Z7235:0' header='yes' outcome='2'>
+                  <column datatype='string' name='string:processo' ordinal='0' />
+                  <column datatype='integer' name='int: len(andamentos)' ordinal='1' />
+                  <column datatype='integer' name='int: len(str(andamentos))' ordinal='2' />
+                  <column datatype='string' name='lista2: andamentos' ordinal='3' />
+                  <column datatype='string' name='andamentos filtrados' ordinal='4' />
+                  <column datatype='integer' name='andamentos excluidos' ordinal='5' />
+                  <column datatype='string' name='interlocutorias' ordinal='6' />
+                  <column datatype='string' name='atas' ordinal='7' />
+                  <column datatype='string' name='virtual' ordinal='8' />
+                  <column datatype='string' name='redistribui' ordinal='9' />
+                  <column datatype='string' name='embargos' ordinal='10' />
+                  <column datatype='string' name='despachos' ordinal='11' />
+                  <column datatype='string' name='agravos' ordinal='12' />
+                  <column datatype='string' name='pautas' ordinal='13' />
+                  <column datatype='string' name='pedidos' ordinal='14' />
+                  <column datatype='string' name='transito em julgado' ordinal='15' />
+                  <column datatype='string' name='baixados' ordinal='16' />
+                  <column datatype='string' name='processofindo' ordinal='17' />
+                  <column datatype='string' name='protocolado' ordinal='18' />
+                  <column datatype='string' name='autuado' ordinal='19' />
+                  <column datatype='date' name='distribuido em' ordinal='20' />
+                  <column datatype='string' name='primeiro relator' ordinal='21' />
+                  <column datatype='string' name='prevencao' ordinal='22' />
+                  <column datatype='string' name='ministroexcluido' ordinal='23' />
+                  <column datatype='string' name='ritoart12' ordinal='24' />
+                  <column datatype='string' name='conexo a' ordinal='25' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[Processo]' />
+              <expression op='[string:processo]' />
+            </expression>
+            <first-end-point object-id='ADI +ADPF_20DE8EE8B9824677B09AF24355F6FF44' />
+            <second-end-point object-id='ADIsADPFsAndamentos_89990E32D0B84AA48336CDD4F0D01449' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Planilha 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ADI +ADPF+ (Múltiplas conexões)' name='federated.0wdtdi204nsgrj1h0as191hzk2h9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wdtdi204nsgrj1h0as191hzk2h9'>
+            <column datatype='string' name='[Feredal e Estadual]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[Origem do ato impugnado]' new-bin='true'>
+                <bin default-name='false' value='&quot;Atos Estaduais&quot;'>
+                  <value>&quot;AC&quot;</value>
+                  <value>&quot;AL&quot;</value>
+                  <value>&quot;AM&quot;</value>
+                  <value>&quot;AP&quot;</value>
+                  <value>&quot;BA&quot;</value>
+                  <value>&quot;CE&quot;</value>
+                  <value>&quot;DF&quot;</value>
+                  <value>&quot;ES&quot;</value>
+                  <value>&quot;GO&quot;</value>
+                  <value>&quot;MA&quot;</value>
+                  <value>&quot;MG&quot;</value>
+                  <value>&quot;MS&quot;</value>
+                  <value>&quot;MT&quot;</value>
+                  <value>&quot;Múltiplos&quot;</value>
+                  <value>&quot;PA&quot;</value>
+                  <value>&quot;PB&quot;</value>
+                  <value>&quot;PE&quot;</value>
+                  <value>&quot;PI&quot;</value>
+                  <value>&quot;PR&quot;</value>
+                  <value>&quot;RJ&quot;</value>
+                  <value>&quot;RN&quot;</value>
+                  <value>&quot;RO&quot;</value>
+                  <value>&quot;RR&quot;</value>
+                  <value>&quot;RS&quot;</value>
+                  <value>&quot;SC&quot;</value>
+                  <value>&quot;SE&quot;</value>
+                  <value>&quot;SP&quot;</value>
+                  <value>&quot;TO&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Federais&quot;'>
+                  <value>&quot;FEDERAL&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='date' name='[Ingresso no STF]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Origem do ato impugnado]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Processo]' role='dimension' type='nominal' />
+            <column-instance column='[Processo]' derivation='Count' name='[cnt:Processo:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Ingresso no STF]' derivation='Year' name='[yr:Ingresso no STF:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0wdtdi204nsgrj1h0as191hzk2h9].[yr:Ingresso no STF:ok]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[yr:Ingresso no STF:ok]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[yr:Ingresso no STF:ok]' member='%null%' />
+                <groupfilter function='member' level='[yr:Ingresso no STF:ok]' member='1988' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[yr:Ingresso no STF:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0wdtdi204nsgrj1h0as191hzk2h9].[Feredal e Estadual]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[cnt:Processo:qk]</rows>
+        <cols>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[yr:Ingresso no STF:ok]</cols>
+        <mark-labels>
+          <mark-label id='0' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[yr:Ingresso no STF:ok]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[cnt:Processo:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[Feredal e Estadual]</field>
+                  <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[cnt:Processo:qk]</field>
+                  <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[yr:Ingresso no STF:ok]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Atos Estaduais&quot;</value>
+                <value>252</value>
+                <value>2003</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='1' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[yr:Ingresso no STF:ok]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[cnt:Processo:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[Feredal e Estadual]</field>
+                  <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[cnt:Processo:qk]</field>
+                  <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[yr:Ingresso no STF:ok]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Atos Estaduais&quot;</value>
+                <value>184</value>
+                <value>1990</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='2' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[yr:Ingresso no STF:ok]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[cnt:Processo:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[Feredal e Estadual]</field>
+                  <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[cnt:Processo:qk]</field>
+                  <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[yr:Ingresso no STF:ok]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Atos Estaduais&quot;</value>
+                <value>139</value>
+                <value>2012</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='3' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[yr:Ingresso no STF:ok]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[cnt:Processo:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[Feredal e Estadual]</field>
+                  <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[cnt:Processo:qk]</field>
+                  <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[yr:Ingresso no STF:ok]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Atos Estaduais&quot;</value>
+                <value>171</value>
+                <value>2015</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='4' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[yr:Ingresso no STF:ok]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[cnt:Processo:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[Feredal e Estadual]</field>
+                  <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[cnt:Processo:qk]</field>
+                  <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[yr:Ingresso no STF:ok]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Federais&quot;</value>
+                <value>64</value>
+                <value>1996</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='5' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[yr:Ingresso no STF:ok]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[cnt:Processo:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[Feredal e Estadual]</field>
+                  <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[cnt:Processo:qk]</field>
+                  <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[yr:Ingresso no STF:ok]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Federais&quot;</value>
+                <value>50</value>
+                <value>2002</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='6' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[yr:Ingresso no STF:ok]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[cnt:Processo:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[Feredal e Estadual]</field>
+                  <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[cnt:Processo:qk]</field>
+                  <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[yr:Ingresso no STF:ok]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Federais&quot;</value>
+                <value>54</value>
+                <value>2010</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{CE7C6852-AECB-46FA-847E-2CF240AA4DB1}' />
+    </worksheet>
+    <worksheet name='Planilha 1 (2)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ADI +ADPF+ (Múltiplas conexões)' name='federated.0wdtdi204nsgrj1h0as191hzk2h9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wdtdi204nsgrj1h0as191hzk2h9'>
+            <column datatype='string' name='[Feredal e Estadual]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[Origem do ato impugnado]' new-bin='true'>
+                <bin default-name='false' value='&quot;Atos Estaduais&quot;'>
+                  <value>&quot;AC&quot;</value>
+                  <value>&quot;AL&quot;</value>
+                  <value>&quot;AM&quot;</value>
+                  <value>&quot;AP&quot;</value>
+                  <value>&quot;BA&quot;</value>
+                  <value>&quot;CE&quot;</value>
+                  <value>&quot;DF&quot;</value>
+                  <value>&quot;ES&quot;</value>
+                  <value>&quot;GO&quot;</value>
+                  <value>&quot;MA&quot;</value>
+                  <value>&quot;MG&quot;</value>
+                  <value>&quot;MS&quot;</value>
+                  <value>&quot;MT&quot;</value>
+                  <value>&quot;Múltiplos&quot;</value>
+                  <value>&quot;PA&quot;</value>
+                  <value>&quot;PB&quot;</value>
+                  <value>&quot;PE&quot;</value>
+                  <value>&quot;PI&quot;</value>
+                  <value>&quot;PR&quot;</value>
+                  <value>&quot;RJ&quot;</value>
+                  <value>&quot;RN&quot;</value>
+                  <value>&quot;RO&quot;</value>
+                  <value>&quot;RR&quot;</value>
+                  <value>&quot;RS&quot;</value>
+                  <value>&quot;SC&quot;</value>
+                  <value>&quot;SE&quot;</value>
+                  <value>&quot;SP&quot;</value>
+                  <value>&quot;TO&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Federais&quot;'>
+                  <value>&quot;FEDERAL&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='date' name='[Ingresso no STF]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Origem do ato impugnado]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Processo]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Tipo Requerente 1]' role='dimension' type='nominal' />
+            <column-instance column='[Processo]' derivation='Count' name='[cnt:Processo:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tipo Requerente 1]' derivation='None' name='[none:Tipo Requerente 1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Ingresso no STF]' derivation='Year' name='[yr:Ingresso no STF:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0wdtdi204nsgrj1h0as191hzk2h9].[none:Tipo Requerente 1:nk]'>
+            <groupfilter function='member' level='[none:Tipo Requerente 1:nk]' member='&quot;Governador&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0wdtdi204nsgrj1h0as191hzk2h9].[yr:Ingresso no STF:ok]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[yr:Ingresso no STF:ok]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[yr:Ingresso no STF:ok]' member='%null%' />
+                <groupfilter function='member' level='[yr:Ingresso no STF:ok]' member='1988' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[yr:Ingresso no STF:ok]</column>
+            <column>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[none:Tipo Requerente 1:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0wdtdi204nsgrj1h0as191hzk2h9].[cnt:Processo:qk]' field-type='quantitative' max='104' min='0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0wdtdi204nsgrj1h0as191hzk2h9].[none:Tipo Requerente 1:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.0wdtdi204nsgrj1h0as191hzk2h9].[cnt:Processo:qk]' enable-instant-analytics='true' formula='average' id='refline0' label='&lt;Computation&gt;: &lt;Value&gt;' label-type='custom' probability='95' scope='per-pane' value-column='[federated.0wdtdi204nsgrj1h0as191hzk2h9].[cnt:Processo:qk]' z-order='1' />
+            <reference-line axis-column='[federated.0wdtdi204nsgrj1h0as191hzk2h9].[cnt:Processo:qk]' enable-instant-analytics='true' formula='median' id='refline2' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.0wdtdi204nsgrj1h0as191hzk2h9].[cnt:Processo:qk]' z-order='2' />
+            <reference-line axis-column='[federated.0wdtdi204nsgrj1h0as191hzk2h9].[cnt:Processo:qk]' enable-instant-analytics='true' formula='average' id='refline3' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.0wdtdi204nsgrj1h0as191hzk2h9].[cnt:Processo:qk]' z-order='3' />
+            <reference-line axis-column='[federated.0wdtdi204nsgrj1h0as191hzk2h9].[cnt:Processo:qk]' enable-instant-analytics='true' formula='average' id='refline4' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.0wdtdi204nsgrj1h0as191hzk2h9].[cnt:Processo:qk]' z-order='4' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0wdtdi204nsgrj1h0as191hzk2h9].[Feredal e Estadual] * [federated.0wdtdi204nsgrj1h0as191hzk2h9].[cnt:Processo:qk])</rows>
+        <cols>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[yr:Ingresso no STF:ok]</cols>
+        <annotations>
+          <annotation class='point' id='0' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run bold='true'>Efeito Fontelles</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[yr:Ingresso no STF:ok]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[cnt:Processo:qk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[cnt:Processo:qk]</field>
+                      <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[none:Tipo Requerente 1:nk]</field>
+                      <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[yr:Ingresso no STF:ok]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>117</value>
+                    <value>&quot;PGR&quot;</value>
+                    <value>2003</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='131' y='26' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{FDE2EE7B-7F6B-4710-9195-7D8C75EB6CEC}' />
+    </worksheet>
+    <worksheet name='Planilha 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ADI +ADPF+ (Múltiplas conexões)' name='federated.0wdtdi204nsgrj1h0as191hzk2h9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wdtdi204nsgrj1h0as191hzk2h9'>
+            <column datatype='date' name='[Ingresso no STF]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Processo]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Resultado Final]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Resultado da Liminar]' role='dimension' type='nominal' />
+            <column-instance column='[Processo]' derivation='Count' name='[cnt:Processo:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Resultado Final]' derivation='None' name='[none:Resultado Final:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Resultado da Liminar]' derivation='None' name='[none:Resultado da Liminar:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Processo]' derivation='Count' name='[pcto:cnt:Processo:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Ingresso no STF]' derivation='Year' name='[yr:Ingresso no STF:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0wdtdi204nsgrj1h0as191hzk2h9].[Exclusões (ANO(Ingresso no STF),Resultado da Liminar)]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[yr:Ingresso no STF:ok]' />
+                <groupfilter function='level-members' level='[none:Resultado da Liminar:nk]' />
+              </groupfilter>
+              <groupfilter function='reorder-dimensionality'>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:Resultado da Liminar:nk]' member='%null%' />
+                  <groupfilter function='member' level='[yr:Ingresso no STF:ok]' member='%null%' />
+                </groupfilter>
+                <order>
+                  <hierarchy name='[yr:Ingresso no STF:ok]' />
+                  <hierarchy name='[none:Resultado da Liminar:nk]' />
+                </order>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0wdtdi204nsgrj1h0as191hzk2h9].[none:Resultado da Liminar:nk]'>
+            <groupfilter function='member' level='[none:Resultado da Liminar:nk]' member='&quot;Prejudicada&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0wdtdi204nsgrj1h0as191hzk2h9].[yr:Ingresso no STF:ok]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[yr:Ingresso no STF:ok]' />
+              <groupfilter function='member' level='[yr:Ingresso no STF:ok]' member='1988' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[Exclusões (ANO(Ingresso no STF),Resultado da Liminar)]</column>
+            <column>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[yr:Ingresso no STF:ok]</column>
+            <column>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[none:Resultado da Liminar:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0wdtdi204nsgrj1h0as191hzk2h9].[none:Resultado Final:nk]' />
+              <text column='[federated.0wdtdi204nsgrj1h0as191hzk2h9].[pcto:cnt:Processo:qk:2]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[cnt:Processo:qk]</rows>
+        <cols>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[yr:Ingresso no STF:ok]</cols>
+      </table>
+      <simple-id uuid='{B9667F4F-6933-4470-A833-90C776150AB7}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Planilha 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.0wdtdi204nsgrj1h0as191hzk2h9].[Feredal e Estadual]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[Feredal e Estadual]</field>
+            <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[none:Origem do ato impugnado:nk]</field>
+            <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[none:Processo:nk]</field>
+            <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[yr:Ingresso no STF:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{BFBE83A9-96D0-408B-B0F1-96CF3B8F2C13}' />
+    </window>
+    <window class='worksheet' name='Planilha 1 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.0wdtdi204nsgrj1h0as191hzk2h9].[none:Tipo Requerente 1:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[Feredal e Estadual]</field>
+            <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[none:Origem do ato impugnado:nk]</field>
+            <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[none:Processo:nk]</field>
+            <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[none:Tipo Requerente 1:nk]</field>
+            <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[yr:Ingresso no STF:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{72A03335-2A57-47AF-926D-D9E8EF9B7712}' />
+    </window>
+    <window class='worksheet' name='Planilha 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='140'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.0wdtdi204nsgrj1h0as191hzk2h9].[none:Resultado Final:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[none:Processo:nk]</field>
+            <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[none:Resultado Final:nk]</field>
+            <field>[federated.0wdtdi204nsgrj1h0as191hzk2h9].[yr:Ingresso no STF:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{292515A0-CF40-4035-B4A2-3D5250F3D03A}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Planilha 1' width='192'>
+      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
+      HfP/AwcIfw7rf0lUAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Planilha 1 (2)' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAgAElEQVR4nO2dZ3Qk13mmn1uhE4BGI4dBnMEkTGCmhpmiSEm0RUm2ZclhZUVrpeMgry3b
+      sne1ln1sa70+G7ReB3ltr+SglSxRFCXLpBlEipQ45AROxiQMQqMRGrEb6Fzh7o8eYgZspMGg
+      Awb1nIMfqHvr3q+q66266fuukFJKHBw2IUIIoRTbCAeHYlLyAojFYsU2weEGRiu2ASthWVax
+      TSgqyUQct7cMRVxvSZKp8TC6x8fs7Cy+sjKS8TjV9Y14XSX/GOSNzXvlG4TDL7/Ilj03E5+O
+      0NpUzcXQFJ1NVaQtwVQ4TPvWNvqGJmioUDD1AOnoGJ079zEx3Md0XFJbLkiIcjqrLP7t5RPc
+      f+AmXjt4kJv2d3IhaPJAbUOxL7GoOALYAJw63UN9mc4LfX34fB5mQpfY1lHHifMjTEXniMZS
+      xPwKltGH5Wlg6uwI8dE+EIJRW2LZFh1ve5D9W/309I1RW1NDZUUZiXgIe5MPgTgCKHF27b+Z
+      DBpeXeA5f5IXTo7wwZ98B9XVfiJJlYamJsKTs1SVCfBUkYmG6dzVRLQu+9OaiSgJUQ5I0obO
+      rft3YqdiVPi9vO2hDiq8enEvsMiIN4ZBY7FYSba3E4kEPp+v2GY43IAEAgEx/wUoKysrpi3L
+      4vf7i22Cww3KvACEuO5hhrxRyrY5bGyKPg9gZ5KcOHMOMzXL60eOEAwNc+zoUcZn4sU2zWET
+      UPROsOLyUu0vIxWdoXXPLYycOkhb953MTYWx/B5s28Y0zWKb6XCDUnQBmKk4o6Mj6O1tjJ09
+      QUP7DkIXT9OybTeqqqIoCpq2tJl2LIwoq3eaSQ5rQpT6YrhoNEplZeWS6Yl//jDuBz6D2rC3
+      gFY53Ahs+MVw0kxhR0PYkVCxTXHYoGxsAaRmkakZ7MhgsU1x2KBsbAHMjqAE2rFnBoptisMG
+      ZUMLwJ4ZQOu8HxkNUeJdGYcSZWMLYLoPpWk/0sqAlS62OQ4bkI0tgEgQpaoToZchM8lim+Ow
+      AdmwApBSYiemUHw1CH8Tcm642CY5bEA2rAAwEmCbCI8fpbIVeyZYbIscNiAbVgD27AhKRTMA
+      SlUHdsQRgMO1s3EFEAmiVLYAoFRuwY46AnC4djauAKb7UGq7ABAVjcjZsSJb5LAR2bgCiARR
+      Am0ACG8VMhVF2qXn0VYspJFy7scq2JACkFIio0MogXYAhKIhvAFkfLLIlpUG0kiQ+OcPYvW/
+      VGxTSp6SEYBtZbhw7ixz8QQXz58nZdjLZDaRZhr0K77Cir8ZGXOaQVJK0q/+JcJVjjXeU2xz
+      Sp6i+wO8gZmIEIklyVy6SN2WDkZGRmhvaVrUIUYmZkB1Y6HA5TRZ0Yw5PYis21MM80sGmZzB
+      HDuL677fwnztzx1nohUoHQFkDFxuD4aRYnw0RGVN45IOMeZsELVm24LjsmYr9tTFZZ1nbnSk
+      bZF65X/ie+Q/I8pqMeITm/p+rIaC350z5y+xc1t7zg/jrW5mu7sSj89HOpXC6106FIo9M4BS
+      1bngmFLVjnnphbzYvFEwL/wb2OaVwQHNgx2fQimrKbJlpUvB+gDpTIYz53v5+hNP8dVv/WtO
+      uhCCsvJyVEXB5/OxnIejPd2PUtW+4JhS3oiMjW3aVaH23BiZo1/Gff9n5o8pNV3Yk+eLaFXp
+      UzAB6JrGU8/9kEp/BR947zuvq6yrh0CvVOBDGimQy3Seb1CkbZJ+4Qu47/4VlLK6+eNKQzf2
+      5MUiWlb6FKwJFIsn+cB730kylcbtcq25HGlbyFgY4W9ecFxoLoTmRqajCG/19Zq7oTBOfRNR
+      Vovace+C42rdbjKv/32RrNoYFEwA/ooy/BXrEH0uPYdw+RBqbkxLJdCOjIRgEwlAGkmMnifx
+      /eRf50TGUGq6sCODSNtCKGqRLCxtCjwPIDl+6IecONe35hLsWBjhW7xTJwJt2DP9ay57I2KF
+      DqPW7UK4K3ITVR2EAum5whu2QSiwANIMhqYI9l9acwn2zOD8DPCbUQJtN8yq0NV25o3Tj6Pv
+      +YlF04QQKJUt2NGh9TTthqLAAlDpbK3DXRZYcwn2zABKTdeiaUpVO3bkxvixjTNPYA78cNk8
+      dnwiO8xZv3vJPGp9N9Zk73qbd8NQ8CbQUHAUj2ftMent6T6U6o5F0xT/FuwbwEFeSol59ruk
+      D/4F0l56Jtc8+130He9YtD/0BkrdTmxnScSSFFgAFpoCoZGJNZcgY+OIsvpF04S7PDsMamxw
+      /+BUFKREre/GvPjcolmkZWBcfA69+93LFqVUdWDPOHGTlqLAAvBQUV3LbfsXb8KshLRNZCaG
+      8C7dhBKeSmRmY3f6rPGzKPW7cd35cTLH/gFppnLzhE+jVG4B9/J7J4jyemRiErnRXwp5ouCd
+      4BOHjnMptLZQhjI2gfBVI5SlR28VfxN2dGM7yFvDR1BbbkepaERtvgXz/NM5eYxT30Tf894V
+      gwILoaAEWrHnRvNl7oamwAJQ2LlvJx5lbRNhdnQodwb4zTUE2pDRjR0r1Bo9idq4HwDXrb9A
+      5vhXF7zB7eQM9nQ/6pY7VlWeUrMde8rpCC9GwUeBFMVG19cogOk+lKqOZfNk27wbdy5AGgmk
+      kUT4spN5Snk9Wuf9GGeemM9j9j6P1nEvQlvdfVQb9mCHnY7wYhS8E5xKmSTii+z+IiW2bWfj
+      /dg2iw3k2NP9S84BvIHwt2zoodDs23/vgplb/eafwzj9ODITy44QnX8Kvfs9qy5Tqd2ONXF+
+      w4+O5YMCC0Cg6xqVgdx4/0YywuvHTjE+Nszrrx8jND6zIF1KeXkOYNvyNZTVIhNT62p1IbFC
+      h1FbFjZtFF812va3Y5z8Bvb0JVBdCH/TqssUvmpkfGJTLhRciQL7A9hMTk4T2LI1J8WIz5KR
+      MDI8THvXXmLRaSzLf8UjzDaxU1FsVyX2cl5Oejl2ahYzk4Z1Xv8ikxGEpwJEntbVSIk5/Dqu
+      fT+T48ml7vsAqSc+gZi4gLb73ViWDazygRYu0H2YiRmEZ+2TkDciBRSA5MKp0zTv2Mut+3fl
+      pHprtlA3Fae6oZ2JkQFat+1a4BEmUwkUVUd1uVlpXw+lrBYlOZkdJlxHki/+IfrNP4fWeue6
+      lvsGMhVBSIlWXps7uqMFcO36cTJH/y+uR34PcY2eXmb9bsTURbT2u3LSrIlzKDVdy46u3agU
+      sAkkuXBpgLGLpzl5KXe9jlA0tu/qpqYqwK7uPZS53/SWdflwP/g7Kz78QHb9yzoP+0krgzV+
+      Fjt8Zl3LvRpr/DxK3c4lhzb1m38W73v+HKF5rrlstX73ojPC5vDrJL7+Icz+l6+5zBuBnKcp
+      GYsSSxrY9nq3FwX33v8A9z38MFuql97za8mzFQ21oXtVeZXKLeu+KE7GJsDKYOXRweSN8f+l
+      EKoLtWFtTv9K3Q6siXMLjtlzYdI/+BM8b/tctpO9CTvJOQIYC48zMT7C4YM/Ymx0lNOnewiP
+      jXJpcJjruz2CQHUlB7//Ev3D+R2lUWp3YodPr2uZ9lQvavvd2fX1eepMXj3+v94oVZ3Y033z
+      wbKkmSb17OdwveWTaDsfhdQsMhbOS92lzAIBSNsgPBZmdGyS2oZG4rNRKn0aIxPTjIyFuT4F
+      SGxboooMM9Hcqf31RG25HSvcg72OE2JW+DRayx15W2skU7PZZR7li69zul6E7kXoZZCeQ0pJ
+      5rUvoTbsRdv6IEJR0Xa+E+Psd/NSdymjvPnfW+88wB237KO5qZHG1nY8FdXs7uqge8fyw4+r
+      4cLp14lJD6nZ6HWXtRxCc+O642OkX/nf6/ZZtycvojTuQylvwJ5b/wBc1vjZrGNLHvc7FoFW
+      7OgQ5sVnsCYv4HrLJ+fr03e/C7P3+exuO5uIBQIQiopL19BdLrxlFZT5vNTV1eLxllFTVbls
+      pIaVEezafycdzZVU1eQ/TIe+/RFkeg5r+Oh1lyWljT03huJvRqnbhT2x/pEWFhv/X2/U+m6M
+      80+TOfw3eB7+/IKZZOH2o1R3Yo2ezKsNpUZOH+DE0dcIjoyTSiZIxSYZnYiRTiUxTItMKkVw
+      aAjLsrAsk2QigZVJEo2lSCQSq2ghCRqbt9BQV5g4Ne4DnyTz6l8ir7NDL+fCCE8lQveiXA7A
+      tZ5IKbFGjqFuuWVdy30zSu12jFPfwP3g76CU1eak693vwTj9zbzaUGrkDPxalgVYvPbyS2zp
+      3ELMrCJ04SKGO0CFpqDqGoO2gpWKMBwcorq2FrWiltCFi9z/jkfwLjtHlOHQq4dp676VHZ2t
+      ebuoN1Ab92UDZp3/Hvrux9Zcjj15EbVuJ5B1NDfP5cY1ui6MJNJIIHy5D+V6ojbdjO+n/w61
+      Ye/i6S23k/7RF+e3ntoM5HwBysvLAWhuaaGyugm3yBCorae+thaXLvBVVJKOTaPoPuqbW6iq
+      rqa60k9LS8Oi63cWYuP2+qldwzDoWnHd+Qkyr/89MpNYcxnW+Jl5t8Osj21oWU+tay4/fBq1
+      vjvvkRuE5lry4YfsULO29a2YF5/Nqx2lRM4XYEf35WG45uxak7qaq99Kb7y1W3IKaqpbTSgS
+      F00N1WRM4xrNXDtKRSOuu34ZK3wGrfXa29hSSkR5A2pLdvZXqC6Euzy7LGKRZsRayLb/lx7/
+      LyT67sdIPf1Z9P3vX9Wk40anwFdocORHhzg/MHBNZ/X09DAyMsKzzz6LaZoMXD6/r6+PSCSS
+      k39oaIhIJEJPT3bm02y4haOHXiEcGuDgwYMEg0Fee+01+vv7OX06O19w9OhRRkdHOXz4MH19
+      fRw+fJj+/n6OHjnMyMQMB4+fJRrNjl4pgfZ1i7QgpcQaPobadNO6lHe9iIpGhNuPPbX2yB0b
+      iQILQGfnnk5EIkEksfqvgBCCwcFBJiYmOHToEC+//DKvvvoqFy9eZHBwkOeff56nn34a27ZJ
+      pVLz51RUZGPlTM3MIivb6T/6LDfffDO2bVNTU0NbWxvl5eWEw2GSySSqqhIIBFBVlXQ6jWEY
+      SDNDIFBFfX0Dfn/W/VCp3rp+IQfTs0gzgahY/erOfCKEQNvzHoyTXy+2KQWh4F+AlKmj2tP0
+      nF2926LPl40U3dHRgd/vZ9eu7EI5r9eL2+2moqICv9/P1NQUwWCQUCjExMQEMzMzBINBdF3H
+      Vd1KtRdOHH6FQCBAWVkZyWSSoaEhTNMkEAgwOjrK7Owstm3j9XrRdR1hxDD1Svx+//yYuVK3
+      c8U3pJ2YWtUchDV8LNv+z+P4/7WidT6ANXoCmY4V25S8U+Dlfy5qAx6sylu5+7aOVZ1hmiZu
+      t5stW7IrO6WUaJqGz+fDtm10Xc+uFpUSy7JIJpPzb/R9+/bNN5Hq6uqx1Z00REPMzWWd5mdm
+      Zujo6MC2bSorF3bM6+uzM7I1rjQx04OayTA0lG32yKSH1IUTeLsWbwZJM0Py8Y/jeeT3Uao7
+      F83zBuljz6E27UcbKi0nnrTehfrqt9G2PlBsU/JKgQWQpv/iIEqLCux7U5ok1HsOd10zo/19
+      tG3vJlDmxjRNkskktm3PvyWFEGQymau8xyRCCJLJJH6/n+7ublRVJRwOMzU1taCO9AtfwXW7
+      iqhoXJ3FP/oKrpt/FhG96g0tLVLBETx9i4d4tEZPYkzEUF/+Bvq+9y1TuiR1/GU8gXtgibKK
+      haw8QPrZ/4HnoQZQ1x7MuNQpqADmIjNs2bUPoee2vMxUjNnZJJoYZ0vXHiKTYSo8zRiGQXwR
+      F0rDWF0fouZNs87Wbe/BnnwVveNjK54rbYuMnsS1pSsn+FSmvhHdYyOuCkc+b1tfL+KeD2Fd
+      /Dfc1VXZ+JyLYEeHMRuacTXmf07k2qnB2PkWROQE2o7rC2dfyhRUAJZpER4ZorM7d8VjJp0h
+      lUmimxUMnD/Flo4dqKpKRUUFLS25w65rRe7aTuIbH8Hb2bjobOjV2NEQqe2d+G7KnaFNTd2O
+      VgvatoXj6tIySJwM43vnH5E0T+Fpr0HxL+6YkzlxGu5+FNfepcfmi4nc/h9JfOOjeLd+FMV3
+      Y0bcLmgnOFBbR5mvjJqq3EjGvsoabj1wD/t2bue2226jsWaRaMfrgNDc2Sn/E19bsZNqT11C
+      rdm+aJpatwtrOrcjbI2eQAm0IVzlaO13YfYtvlWplBJz4Ieo7Xdf+0UUCOH2o+97H8bRrxTb
+      FCB7zzJH/o7MqcfXrcwCjwJpKNYsFweLu52pvvtdmJe+v2LYcGu8B6U+130TQKndgT1xIee4
+      2fsc2vZHAFA77sXsW2LfMjOFTEzlbPVUauh7fwozdBhruvh9FPPS85iDr2Cc/Boys0hkkTVQ
+      8GFQXNXYydzJq0IiXGXou99F5sTXls1nj59FXSLycjYSdXCBc4w0M1ihI2htB7J5qreCkcRe
+      JEqFNXIcpWbbsoFtSwGh6rgPfIrMwb8oqh3WdD+Z176E59H/irbtIYwz316XcgvqEzw8PM3e
+      PVupqc3tOBYafd9PY154etk3iR0bX9pBRfOAosFV59vjPSiVreDKrqcSQkFtO4A1dDjndCt0
+      GG3rg9dzCQVDbb8baSYx12Fp+VqQ6Rjp5/8A9/2/ieKrRt//fowzT2Q3S79OCvoF6D17inja
+      YnqmuF8AAOGuQNvxDoyeJxdNt2Pj2V1XNO/i5wuBUl6HPXtlQs+4+AzazncsmNTStj2E2bsw
+      wrO0LczgQdSmm9fhSvKPUFTc93yazI/+DGkVduNtKW1SP/gTtJ3vnPeXEN5q1La71sWDrYAC
+      ENx93wP4/X4evK80On763vdh9HwHaeZ6QdkT55aN0ABknWMuzwhLy8AaPorWtvDalKoO7Kne
+      BW8rOTeG8ARWHIUqJZSa7Sh1OzHPfa9gdUopsyEhrQz63vctmAdy3fLzWUf+6/wKFPQLoLu9
+      NDc343GVRvwZpawGrf1uUs//QU5EaWvs9IoRGJSaLqzL3mH2+FmUiiaEZ2G4cqF7UZtvwRo6
+      NH/MDL6C2pQf5/d8IYTAdcfHyBz/x0X7NPnAGj2BeebbeB76XM5ScaWiEbVhL2bfi9dVx42/
+      3nUFXHf9Etq2t5J67vdIPvM5rPGz2WUV42dXFIBasw0ZyW4+Yfa/ND/682a07Y9gDlyJu2MN
+      bZz2/9Uo5fW47vxFUs/8p/noEvlCWiaZl/877oc/n934ZBFct34Q4/g/XVeUjk0vAKGo6F1v
+      w/sTf4W+452kX/pvpP7lPyCjQcQSE1jz51Y0Yc+FkbaFNXQItS036hqA2non1shxpJlGmmns
+      qd4Vo1yXKlrXwyjV28gc+lJe4whZoUMoVR2oy8SCVQJtCH8L1sCP1lzPphfAGwhFQ+u4B+9P
+      /TX6/vej3/LBJZcwzJ+juRG6D2v4CMJXvfRsqVBRKluxJ85hjfegNu5D6It3rksdIRTc9/4a
+      1sgJrP4f5KUOKW0yx//fCuuosrju+CiZo19e8xepNBrjJYQQCto1zM4q1Z1kDv8d+q4fX6ZM
+      gdb1EOal7KRYvqM/5BuhaHge+X2ST/4ySvXWFTctuVbk7CgYcZRVRMFTqrch3BXZAYg1xGx1
+      vgDXiVKzDWvo0IrLhtW2u7CGX8caeR2t454CWZc/lIpG3A9+ltQzn1t0D7Prwej5Nvrux1bl
+      Iy2EwHXbh8kc/ts1fQUcAVwnauO+bOd3hc3qFF81uMqy4+iewgUFyCfqltvQtj9C+oUvrFu4
+      SJmJYfa9iNb18KrPUZpuQpTXYfZc++ywkCUeETUajeY4q5QSUkqwjFVtV2T0fAeZnsV1y78r
+      gGWFQdoWqed+D3uyN2c/BrWmKzuKcw3ebsaFp7HGzuC5/zeuzY5khMTjH8P72BdRKle3elgI
+      IRwBOFw3Utpg5IadST37e+g3/Uw2puoqSTz+cdwP/DZq7eKrcJfDHDpE5vDfZEPIr2KNlRAl
+      FPfCysQ5feo4PWfPcuTwEYbHi79cwmF1CKEgXOU5f67bPoLx+t+verjUGj8LqgulZm37SKst
+      d6BUb8M49o+rPqdkRoGE5qa8vBKfC5QtnczNTGBZFVe2SHLYeNTsyO5oP3p6PrDYcmROfQu1
+      +ycuRydcG+qdnyTz5Ceh5QDKKr4iJSMAMxFlZjaOt7mR8OAF2rZ3L9giyWGDctuHMY59Bf3H
+      /nTZvoCdnEGOHcf1wGeuefunBWiVKG/9XdIvfQHvT/3tik2hkmkCucpruOWmvTTU1bJn334q
+      PM5DfyOgtt6JTE5jT+Y6D12NeeEZtB3vQGju665TadiL2n4vmVf/asXmV8kIwOHGRAgF1y0f
+      xDj+1SXzSNvEvPAU+q53rVOdAtftH8EaO4l56fll8zoCcMg7aud92DP9i+7bJqWNcewfUSpb
+      UVYZqmY1CFXH8+h/wTj5DdKvfWnJYMaOABzyjlA09Jt/nszxry5okshMgvQLX8Ca7MX9wG+v
+      e72Krwbvu7+ITEyReuqzyEV8wB0BOBQEbdtD2RWxiUkA7LlRkt/9VUR5A563/8GSS56vF6F5
+      8Lz1d1Fb30LiiX+PPTOwMN2ZCHMoFJlT30RGQ6hbHyD9wh/jvvtXUTvuLUhcVCkl9ugJUi/8
+      UVYQzbc4M8EOhUUaSRJf/QDCE8D9yOdRq7cW3AY7No6MhbNL0h0BOBQaOxJEeKvz1uS5FoQQ
+      whlsdygo6+07cL04nWCHTY0jAIdNTckJQEpJOp1exY6TDg7XT8kJIBkd5+y584TChYk947C5
+      KTkBmEaG5rZOjHSy2KY4bAJKTgDlVQ1EwiGamkpj10SHG5v5eYBYLHZdjgj5IpFIzO8S6eCw
+      ngQCgSvzAOXlxZ+YWApnIswhXxS/CSQlk1NTSGkTCgYxLYuhwSCWMwrkUACKPhNsG2kmpiOU
+      iSSm5ub08WPUNLUyODRKR0vD/FaoDg75oOhfAKG5cClgWdmNrhVFYFlmSe2c7nDjUvwvwOUN
+      DjKuKnzGLO37b2Z8LExDcyOKuLwTi1J0nTrcoDirQR02LSUVGMvBoRg4AnDY1DgCcNjUOAJw
+      2NQ4AnDY1DgCcNjUOAJw2NQ4AnDY1DgCcNjUOAJw2NQ4AnDY1DgCcNjUOAJw2NQUfTn0G2Tm
+      JjhxcZiqynKiMxGaO3fQVLP85tMODtdLyQhAAtgWybk5OnbtZ24qjBUoc3aJdMgrBReAYZjo
+      em61iurG43ZRXVvHyKUeWrucXSId8k9BHWKklHztiae4585baGtZXdwfxyHGIV8UNDx6Kp3m
+      K197kvOXBqj0V6xaAA4O+aRgAhAIaqqrOBCo5Mcevq9Q1To4LEvBmkDpdAZd17Btiaapqz7P
+      aQI55IuC+gS73S4URWEqHCI8FS1UtQ4Oy1LgibAkrx87x+tHjxS2WgeHJSiwANzU+AXCXVHY
+      ah0clqDAAkhzrqePZDpV2GodHJagwAJQ2XfzPnQnHJFDiVDgJ1FhemaW5qbawlbr4LAEBRaA
+      zfDACLFUrLDVOjgsQYEFoNHWUYci3IWt1sFhCQq8yiyNpVViz80UtloHhyUo8BfAg5IZRy2v
+      KWy1Dg5LUPBh0IRVTnxqNCdF2hYXz/UQmZ3j7JnTxNOOD4BD/ilwE0ilvr6Gru49OSnJ6RDh
+      ORPP9Bi1LVsZHxulraXZcYhxyCsFFUBkYoyLl/pQyyup2rtzQZrurcCjzDAdiZGZ7KGpdZvj
+      EOOQdwr4ZNm8dug4fp+Xjq3tuYb4qrjt1qqrjjh7hDnknwL2AQQtWxrx11Qx2D+UmyrEm/4K
+      Z5nD5qXge4SNhkJ4/H6q/KuL+OD4AzjkiyLsEZbiW//0z7x05PXCVuvgsAQ5ArjQc5KR8en5
+      /61kjNmUkXOibWZIpDLXUJWk5/gpqpurENK1JmMdHNabnE5wLBajvDLBc88cZkv7VlKRKdzV
+      1Qz29rN953ZU3c1I72ka27txKSmOhOPcc8dNqMpKjXZB9837CA5Pg53O0+U4OFwbOQJobOmg
+      zu/B5StH2CZCVbEMg8qqAIripqm+gpEBL/FoFLWmnEwsQsay8Sqr8fP1cNddt2JrvjxcioPD
+      tVPgTnCaf/nW96hq6+Ke2/ev6gynE+yQL4rQCRaYlkVFmfMFcCgNCu6apSkKyZTTB3AoDQru
+      EBPqHyGSiBS2WgeHJSjwIhs3B+69CQJOWESH0qDgy6GDoSnOHHqWM5cmClu1g8MiFFgALjCj
+      KL4ayr16Yat2cFiEgi+FGBmawe2vpb05kJNqZjJYtk08Hscu6Aolh81KwfsA7/6Zn2Q6lru0
+      QkqbM0deoaylk9RcHH91PW1O+BSHPFNQAYQuneDJp4/R1b2bvbu7FqTNTYSYjhmkJqfoaN9G
+      PDaHZVmOR5hDXimoAFq27WFb6zC1NdU5af76Nu69r5qM0BgJBmnt7EJVFccjzCGvFPjJEljW
+      0m9z3VuODmzfsaNwJjlsagoeGtHndTMXcyLDOZQGBf0CSGljSxC2VchqHRyWpIBfAMnhwyd4
+      6NFHKXOmABxKhII2gfweePH7L6D6qlbO7OBQAAruFH+tOP4ADvmiCP4ADg6lhSMAh02NIwCH
+      TY0jAIdNjSMAh02NIwCHTY0jAIdNjSMAh01NyawztjIJzl24REVlFTOT47Rs202N31tssxxu
+      cEpGAIrupbqqEiMVp2X7XuamwgTKnC2SHPJLyQjAiE0wMDxFe0s9wQunaOnc5WyR5JB3nLVA
+      ecKOhRFldTirTUoXZy1QnpCZOImvfxBr8GCxTXFYAUcAecC89H3Uut1kXvsSchkXUIfi4whg
+      nZFSYpx/Gtc9v4JSux2z74Vim+SwDI4A1hkZCYKZRKneiuv2j5A5+hWkeS1bSTkUEkcA64zR
+      8yR693sQQkGpbEFt3Id5/nvFNsthCRwBrCPSzGAOvoK29a3zx1y3/gKZE19DWs5XYD2QRgpp
+      rt/+EpteADITRxqJdSnLCr6CWr8L4bmyB7Lib0JtuROj58l1qWMzYycjJL/1CZLf/TWklRte
+      czVIM409Nzr//4aYB+jt7SUQCHDkyBEee+wxent72bFjB6dPn2bLli1UVFSgKNgX7FEAAAkx
+      SURBVApeb3bpxMjICIFAACEEx44do7Ozk/7+frq6urhw4QJdXV309fXR1lTD4OGnaK2vZNiq
+      pWnbPiYmJmhpaWFwcJCWlhYmJibYt28fur58KAspJanv/Qau2z+C2rhvYVoqSuLxX8T3019G
+      uDbu9lDSTGNe+j5KdSdKTRdCKdwEpT03SvJffxP3HR/HGjsFtoXrnk8jxEq7k15BSpv0C3+M
+      UrsD1/73I4QQG2KKtaysjOHhYaSUHDx4kGAwSDQaJZPJIIRgbGwMwzA4cOAAwWCQ3t5edu3a
+      RXd3Nx6Ph3g8jsfjIRaL4fF4SCQS6HaS+KVXcLfeillTi3Luh6THvSAqMQwDTdMYGRlBURQi
+      kQh1dXXL2ihjYWR8EqVhT06a8FSibX0Q48wTuG75+TzdpfxixydIPfM5lPJ6jJ7vIBOTaB33
+      o21/BKVuR14n/OzZEZLf/TSuA59C7XwAtf1ukt/5NFb/D9C2PriqMqSUmOefQsYn0R/87Pzx
+      DSGAQCCAZVk0NjaiKAoej4eysjISiQS1tbVIKZFSEggEyGQyZDIZpJQkk0lUVaWsrIx4PI7P
+      52N2dhaPPYeYPIf/1neSnJ6jPFDLbOvteI0hYhMhPK1bUFWVbdu2EQwGKSsrW9FG49z30Ha8
+      fckHwXXrB0k8/vFsB9ldvt63aFmkbWFP9WL2Po80Erhu+zBK2eojb1ujJ0l9/w9xHfgk+raH
+      ALCTM1h9PyBz6K+xY2EU7yKhblxlaB33orbfjeKrWZPtdjRE8nufwX3vr6O135U9qLrwvP0P
+      SX77U4jKVtSabSuXEz5D5vhX8b33LxZ8uUq+CTQ6Osrc3Nw1nyelJJVKMTs7u/B4cjrbUW2/
+      G+F9c5BeiTVyHJmMoHXcDap71fWlX/hjXHd+ArHMg2X2fBtr/BxK/S6Uqk6Uyi0IVzmoLlj3
+      N6iETAJr9ARm34vI9Cxqyx0IVcccPIjr9o+i1G5fsRR74jyZo1/GdcfHUGq6Fs+UiSFT0VwL
+      khHM/pewZ/pR6rvROu5FCbSu+r7K9CyZH30Rffe7UZpuyrVt9ATGuX/F/eBvgVhmn2orQ/rF
+      P0G/6QMotVfizt5///2i5ASQjkfoOddL89ZdNFSVMzg4SCgUuv6CpcQMHcY8/xTu+34d4a5Y
+      Mqs9M0D60P9BqDpa5wOobQcQ+tJLs62xk5iDr+J+yydWMgJpGchMAhkLY0dD2NP9yNlhZHwC
+      4atG+Juz4qjqQAm0LVtv9rJsZGIaGR3CnhnAnu7DngmCqwy1YQ9qxz0o/haEeuWtJy0D48wT
+      WKMncd/9SygVuXu2SSNB5siXQXPhuvVDCPU6wvlJiTQSWGOns2KcG0VtuQNt24Mo/i0Ls6bn
+      MAdfwRr4IQgV14FPoVQ0LFm0GXwVK3jwcn8g9yUiLYP0S3+KtvNRtOZbFqTde++9pSeA2fEg
+      hq+RuakwHe2tKy6Gs2NhsC2EtxqhexakSdvCnhnA7HsBq+8HoHnwvOOPUMrrV7RDWhms0VOY
+      /T/ACh1GCbShddyH2nRT9kF1ZZtFUkpSz3wOvfsxtNa3XPP1SilB2mCmsCNB7Kle7Kk+7GgQ
+      OzoMqo7iq0Gp6UKp6kD4qrBnBi8/6IPIVASh+1Cq2rPCqd2OUt+dHYkS6pKdRCklVv8PSL/6
+      V+g7H0V4qy4LqB+ZmEJaabTtb8d124fWtbMrpY2MhjB7n8cMHgTLRNv6AMJbhdn3AnYkhNpy
+      O9r2h1Ebb1og3KXKSz33eZRAO/ruxxDeAEJ1zV9j5vDfIJPTuO//zRyBCCFKTwBGKkbPuYu0
+      bttNdYVnRQEYF5/FOPXN7IOguhCVLSjV28DKYA29BpoHbesDaJ33I/zNa+qsScvAnjiH2fci
+      VrgHmZgC1YUSaEWpbMUceBnfB/5h3UdFpJSQiWHHxrGn+7GnLyFT0ezXoaoTpbIF4a3KEf41
+      1ZGaJXPqG2AbKNXbUGu6EL4acJfnfSWrlBIZn8h+FVJRtLYDKLU7ENrqm54AMpMg/cr/wp7q
+      RSamEb5qlKpOhKcSa/QE3vf8GULLvUcLBJBMJrGs0ovaHI/HV9UJBZCpSPYNFg2BqqO13QWe
+      PC2lTs9iR4ewZwYRFU2ob/q8OhQLiZwLZ3+bSBCt415E+eJNqIqKiisCsCyLEvsYADA3N0dF
+      xcL2um3bKEru22mx44sde2PUaDV5r6XcQtpVCrYCOU2s6827HtclhFhVXbquX/nGqaqKpmkl
+      96coCqoiGB0a5FL/ECgquq6jaSpT42MMh4aIp7Lj9rquo6oqqqqSnpvFQMznDY8Ok7Ekc7HY
+      fN7o9ASTk5OMT86gXj4mkMRiMYLBILYUqGq2vmQiSXx2hvBVeTOpFJlkjL7B4fl8miYZCg4j
+      lCv3U9d1jGSM0bExBoJX8qoKhAb76RsIIS7ff13XiUWnCQ0PMx2Nzdf1xnWpikk0mpy/rrHh
+      IUwpmYvF58+PTIWZmJxkYjo6f0xgz1+XvHxfVMUmmTIZHxkidtU9TKVSpOOzDAyNXlW/xVBw
+      FOVNz8nM5DhjY6OMT0Wu/AaKZLC/j8GhkQX5Z2emGB4OMTOXyPm94pEIcv6YwkhoCFvAXOxK
+      3sRchInJKYZHx+ftQlqXr2sIKZT5+5JMpIhOTzAVmZs/386kMIwM/f0DmDL76G+IpRDx6VFm
+      4jE01eLCpbHL6jYIjUxQXl7O4OAAkH3DjA32cqFvgPM9Z0lY9uW8GWaiKSZGhujrD86/IcYm
+      ppmeniY6NY68fL5lJOnvy/54b5QphGBw4BIXB0LMXpV3YnSIM6d7iEQipOQbb7g0sbk0Q4P9
+      TExH58sYHR5mNBRkZnqauC0RQhAdDTKTSOHSTXoHpubrCg6FqCgvJxQcnD8/FQ1z/MwFBoOX
+      GJ2Yna8rMmcwNjTAwGDocl5JeDLKzPQ00xNj8+cbqQR9ff0Eh0fnj9l2kt4L55iMJBkJXbne
+      sdAgPWfPE5mexrh8TNpJYrE0gwP9TEXmLtsqGR0LExwaZjx8pdypgUtEkgaqkiE4Fp3POxQa
+      pry8YsF19Z0/y2AwyLmec2Tmf4MY8bQkNNDLYPBKuaGRMPHIFPHoDOnLxzKJGH39A4RGxhDz
+      v5dNX18fgyMTTIavXNfcZJgzZ84wm4wzM5td/vL/AUF4iU/IsrHNAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Planilha 3' width='192'>
+      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
+      TkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
